@@ -1,0 +1,1182 @@
+[
+  {
+    "name": "Lacerta agilis",
+    "file": "Lacerta_agilis.geojson",
+    "taxonomic_group": "reptile",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 16,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Vipera berus",
+    "file": "Vipera_berus.geojson",
+    "taxonomic_group": "reptile",
+    "ne500": 0.0625,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 40,
+    "buffer_dist_m": 500
+  },
+  {
+    "name": "Podarcis muralis",
+    "file": "Podarcis_muralis.geojson",
+    "taxonomic_group": "reptile",
+    "ne500": 1,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 273,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Coronella austriaca",
+    "file": "Coronella_austriaca.geojson",
+    "taxonomic_group": "reptile",
+    "ne500": 0.0253,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 71,
+    "buffer_dist_m": 2000
+  },
+  {
+    "name": "Natrix helvetica",
+    "file": "Natrix_helvetica.geojson",
+    "taxonomic_group": "reptile",
+    "ne500": 0.0333,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 34,
+    "buffer_dist_m": 4000
+  },
+  {
+    "name": "Aeshna isoceles",
+    "file": "Aeshna_isoceles.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 1,
+    "pm": 1,
+    "iucn": "vu",
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 20000
+  },
+  {
+    "name": "Calopteryx virgo",
+    "file": "Calopteryx_virgo.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 1,
+    "pm": 1,
+    "iucn": "lc",
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 20000
+  },
+  {
+    "name": "Coenagrion hastulatum",
+    "file": "Coenagrion_hastulatum.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0,
+    "pm": 0.2727,
+    "iucn": "lc",
+    "n_pops_spatial": 3,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Coenagrion lunulatum",
+    "file": "Coenagrion_lunulatum.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0,
+    "pm": 0.25,
+    "iucn": "lc",
+    "n_pops_spatial": 3,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Coenagrion pulchellum",
+    "file": "Coenagrion_pulchellum.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": null,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 12,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Stylurus flavipes",
+    "file": "Stylurus_flavipes.geojson",
+    "taxonomic_group": null,
+    "ne500": null,
+    "pm": null,
+    "iucn": null,
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 20000
+  },
+  {
+    "name": "Leucorrhinia caudalis",
+    "file": "Leucorrhinia_caudalis.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0,
+    "pm": 0.6667,
+    "iucn": "lc",
+    "n_pops_spatial": 8,
+    "buffer_dist_m": 20000
+  },
+  {
+    "name": "Gomphus vulgatissimus",
+    "file": "Gomphus_vulgatissimus.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0.5,
+    "pm": 0.1667,
+    "iucn": "lc",
+    "n_pops_spatial": 2,
+    "buffer_dist_m": 20000
+  },
+  {
+    "name": "Sympetrum depressiusculum",
+    "file": "Sympetrum_depressiusculum.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0,
+    "pm": 0.2,
+    "iucn": "vu",
+    "n_pops_spatial": 2,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Apatura iris",
+    "file": "Apatura_iris.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 1,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Cyaniris semiargus",
+    "file": "Cyaniris_semiargus.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0.5,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 14,
+    "buffer_dist_m": 5000
+  },
+  {
+    "name": "Erynnis tages",
+    "file": "Erynnis_tages.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 44,
+    "buffer_dist_m": 2500
+  },
+  {
+    "name": "Euphydryas aurinia",
+    "file": "Euphydryas_aurinia.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0,
+    "pm": 0.5,
+    "iucn": "lc",
+    "n_pops_spatial": 5,
+    "buffer_dist_m": 15000
+  },
+  {
+    "name": "Euplagia quadripunctaria",
+    "file": "Euplagia_quadripunctaria.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 1,
+    "pm": null,
+    "iucn": "not_assessed",
+    "n_pops_spatial": 10,
+    "buffer_dist_m": 5000
+  },
+  {
+    "name": "Hesperia comma",
+    "file": "Hesperia_comma.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 7,
+    "buffer_dist_m": 5000
+  },
+  {
+    "name": "Lasiommata megera",
+    "file": "Lasiommata_megera.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 1,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 3,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Melitaea cinxia",
+    "file": "Melitaea_cinxia.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0.5,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 7,
+    "buffer_dist_m": 5000
+  },
+  {
+    "name": "Pyronia tithonus",
+    "file": "Pyronia_tithonus.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 1,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 2,
+    "buffer_dist_m": 5000
+  },
+  {
+    "name": "Satyrium ilicis",
+    "file": "Satyrium_ilicis.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0.2,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 18,
+    "buffer_dist_m": 5000
+  },
+  {
+    "name": "Pyrgus malvae",
+    "file": "Pyrgus_malvae.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0.1667,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 39,
+    "buffer_dist_m": 2500
+  },
+  {
+    "name": "Stenobothrus stigmaticus",
+    "file": "Stenobothrus_stigmaticus.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0,
+    "pm": 0.6,
+    "iucn": "lc",
+    "n_pops_spatial": 6,
+    "buffer_dist_m": 5000
+  },
+  {
+    "name": "Eresus sandaliatus",
+    "file": "Eresus_sandaliatus.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0.25,
+    "pm": null,
+    "iucn": "not_assessed",
+    "n_pops_spatial": 5,
+    "buffer_dist_m": 500
+  },
+  {
+    "name": "Elater ferrugineus",
+    "file": "Elater_ferrugineus.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "nt",
+    "n_pops_spatial": 3,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Vertigo angustior",
+    "file": "Vertigo_angustior.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": null,
+    "pm": null,
+    "iucn": "nt",
+    "n_pops_spatial": 20,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Vertigo moulinsiana",
+    "file": "Vertigo_moulinsiana.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": null,
+    "pm": null,
+    "iucn": "vu",
+    "n_pops_spatial": 27,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Anisus vorticulus",
+    "file": "Anisus_vorticulus.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": null,
+    "pm": null,
+    "iucn": "dd",
+    "n_pops_spatial": 3,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Unio crassus",
+    "file": "Unio_crassus.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0,
+    "pm": 0.4545,
+    "iucn": "en",
+    "n_pops_spatial": 65,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Lucanus cervus",
+    "file": "Lucanus_cervus.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0.0667,
+    "pm": null,
+    "iucn": "nt",
+    "n_pops_spatial": 28,
+    "buffer_dist_m": 5000
+  },
+  {
+    "name": "Dolomedes fimbriatus",
+    "file": "Dolomedes_fimbriatus.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": null,
+    "pm": null,
+    "iucn": "not_assessed",
+    "n_pops_spatial": 75,
+    "buffer_dist_m": 2000
+  },
+  {
+    "name": "Somatochlora arctica",
+    "file": "Somatochlora_arctica.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 7,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Phengaris alcon",
+    "file": "Phengaris_alcon.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 4,
+    "buffer_dist_m": 3000
+  },
+  {
+    "name": "Ephippiger ephippiger",
+    "file": "Ephippiger_ephippiger.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Hipparchia semele",
+    "file": "Hipparchia_semele.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0.5,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 3,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Proserpinus proserpina",
+    "file": "Proserpinus_proserpina.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": null,
+    "pm": null,
+    "iucn": "dd",
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Cucujus cinnaberinus",
+    "file": "Cucujus_cinnaberinus.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "nt",
+    "n_pops_spatial": 3,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Leucorrhinia pectoralis",
+    "file": "Leucorrhinia_pectoralis.geojson",
+    "taxonomic_group": "invertebrate",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 20000
+  },
+  {
+    "name": "Barbastella barbastellus",
+    "file": "Barbastella_barbastellus.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "nt",
+    "n_pops_spatial": 2,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Myotis bechsteinii",
+    "file": "Myotis_bechsteinii.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "nt",
+    "n_pops_spatial": 7,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Myotis brandtii",
+    "file": "Myotis_brandtii.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": null,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 10,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Myotis dasycneme",
+    "file": "Myotis_dasycneme.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "nt",
+    "n_pops_spatial": 8,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Myotis daubentonii",
+    "file": "Myotis_daubentonii.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 1,
+    "pm": null,
+    "iucn": "unknown",
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Myotis emarginatus",
+    "file": "Myotis_emarginatus.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 8,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Myotis myotis",
+    "file": "Myotis_myotis.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 6,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Myotis mystacinus",
+    "file": "Myotis_mystacinus.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 1,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 2,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Myotis nattereri",
+    "file": "Myotis_nattereri.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 1,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 12000
+  },
+  {
+    "name": "Nyctalus leisleri",
+    "file": "Nyctalus_leisleri.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 17000
+  },
+  {
+    "name": "Nyctalus noctula",
+    "file": "Nyctalus_noctula.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 1,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 2,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Pipistrellus nathusii",
+    "file": "Pipistrellus_nathusii.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": null,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 5,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Pipistrellus pipistrellus",
+    "file": "Pipistrellus_pipistrellus.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 1,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Pipistrellus pygmaeus",
+    "file": "Pipistrellus_pygmaeus.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": null,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 13,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Plecotus auritus",
+    "file": "Plecotus_auritus.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 1,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Plecotus austriacus",
+    "file": "Plecotus_austriacus.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": null,
+    "pm": null,
+    "iucn": "nt",
+    "n_pops_spatial": 9,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Rhinolophus ferrumequinum",
+    "file": "Rhinolophus_ferrumequinum.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": null,
+    "pm": 0.6667,
+    "iucn": "lc",
+    "n_pops_spatial": 5,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Eptesicus serotinus",
+    "file": "Eptesicus_serotinus.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 1,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 8,
+    "buffer_dist_m": 5000
+  },
+  {
+    "name": "Castor fiber",
+    "file": "Castor_fiber.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "nt",
+    "n_pops_spatial": 4,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Cricetus cricetus",
+    "file": "Cricetus_cricetus.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 0,
+    "pm": 0.3333,
+    "iucn": "cr",
+    "n_pops_spatial": 4,
+    "buffer_dist_m": 5000
+  },
+  {
+    "name": "Crocidura leucodon",
+    "file": "Crocidura_leucodon.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": null,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 48,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Lynx lynx",
+    "file": "Lynx_lynx.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 2,
+    "buffer_dist_m": 20000
+  },
+  {
+    "name": "Meles meles",
+    "file": "Meles_meles.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 1,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 25000
+  },
+  {
+    "name": "Vespertilio murinus",
+    "file": "Vespertilio_murinus.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": null,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 8,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Lutra lutra",
+    "file": "Lutra_lutra.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "nt",
+    "n_pops_spatial": 6,
+    "buffer_dist_m": 20000
+  },
+  {
+    "name": "Muscardinus avellanarius",
+    "file": "Muscardinus_avellanarius.geojson",
+    "taxonomic_group": "mammal",
+    "ne500": 0.5,
+    "pm": 0.3333,
+    "iucn": "lc",
+    "n_pops_spatial": 49,
+    "buffer_dist_m": 3000
+  },
+  {
+    "name": "Lampetra fluviatilis",
+    "file": "Lampetra_fluviatilis.geojson",
+    "taxonomic_group": "fish",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 16,
+    "buffer_dist_m": 2000
+  },
+  {
+    "name": "Cobitis taenia",
+    "file": "Cobitis_taenia.geojson",
+    "taxonomic_group": "fish",
+    "ne500": 0,
+    "pm": 0.4118,
+    "iucn": "lc",
+    "n_pops_spatial": 33,
+    "buffer_dist_m": 3000
+  },
+  {
+    "name": "Misgurnus fossilis",
+    "file": "Misgurnus_fossilis.geojson",
+    "taxonomic_group": "fish",
+    "ne500": 0,
+    "pm": 0.6364,
+    "iucn": "lc",
+    "n_pops_spatial": 3,
+    "buffer_dist_m": 100
+  },
+  {
+    "name": "Petromyzon marinus",
+    "file": "Petromyzon_marinus.geojson",
+    "taxonomic_group": "fish",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 6,
+    "buffer_dist_m": 10000
+  },
+  {
+    "name": "Lampetra planeri",
+    "file": "Lampetra_planeri.geojson",
+    "taxonomic_group": "fish",
+    "ne500": null,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 49,
+    "buffer_dist_m": 3000
+  },
+  {
+    "name": "Rhodeus sericeus",
+    "file": "Rhodeus_sericeus.geojson",
+    "taxonomic_group": "fish",
+    "ne500": 0.3514,
+    "pm": 0.8043,
+    "iucn": "lc",
+    "n_pops_spatial": 6,
+    "buffer_dist_m": 2000
+  },
+  {
+    "name": "Rhodeus amarus",
+    "file": "Rhodeus_amarus.geojson",
+    "taxonomic_group": null,
+    "ne500": null,
+    "pm": null,
+    "iucn": null,
+    "n_pops_spatial": 81,
+    "buffer_dist_m": 2000
+  },
+  {
+    "name": "Cottus rhenanus",
+    "file": "Cottus_rhenanus.geojson",
+    "taxonomic_group": "fish",
+    "ne500": 0.5,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 76,
+    "buffer_dist_m": 500
+  },
+  {
+    "name": "Alosa fallax",
+    "file": "Alosa_fallax.geojson",
+    "taxonomic_group": "fish",
+    "ne500": 0,
+    "pm": 0.5,
+    "iucn": "lc",
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 100000
+  },
+  {
+    "name": "Anguilla anguilla",
+    "file": "Anguilla_anguilla.geojson",
+    "taxonomic_group": "fish",
+    "ne500": 1,
+    "pm": 1,
+    "iucn": "cr",
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 50000
+  },
+  {
+    "name": "Salmo salar",
+    "file": "Salmo_salar.geojson",
+    "taxonomic_group": "fish",
+    "ne500": 0,
+    "pm": 0.5,
+    "iucn": "lc",
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 100000
+  },
+  {
+    "name": "Bufo calamita",
+    "file": "Bufo_calamita.geojson",
+    "taxonomic_group": "amphibian",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 13,
+    "buffer_dist_m": 4000
+  },
+  {
+    "name": "Pelobates fuscus",
+    "file": "Pelobates_fuscus.geojson",
+    "taxonomic_group": "amphibian",
+    "ne500": 0,
+    "pm": 0.5,
+    "iucn": "lc",
+    "n_pops_spatial": 6,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Hyla arborea",
+    "file": "Hyla_arborea.geojson",
+    "taxonomic_group": "amphibian",
+    "ne500": 0.375,
+    "pm": 0.2581,
+    "iucn": "lc",
+    "n_pops_spatial": 20,
+    "buffer_dist_m": 4000
+  },
+  {
+    "name": "Bombina variegata",
+    "file": "Bombina_variegata.geojson",
+    "taxonomic_group": "amphibian",
+    "ne500": 0,
+    "pm": 0.1714,
+    "iucn": "lc",
+    "n_pops_spatial": 14,
+    "buffer_dist_m": 1600
+  },
+  {
+    "name": "Pelophylax lessonae",
+    "file": "Pelophylax_lessonae.geojson",
+    "taxonomic_group": "amphibian",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 254,
+    "buffer_dist_m": 1200
+  },
+  {
+    "name": "Triturus cristatus",
+    "file": "Triturus_cristatus.geojson",
+    "taxonomic_group": "amphibian",
+    "ne500": 0.0165,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 237,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Salamandra salamandra",
+    "file": "Salamandra_salamandra.geojson",
+    "taxonomic_group": "amphibian",
+    "ne500": 1,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 150,
+    "buffer_dist_m": 1500
+  },
+  {
+    "name": "Rana arvalis",
+    "file": "Rana_arvalis.geojson",
+    "taxonomic_group": "amphibian",
+    "ne500": 0.1429,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 95,
+    "buffer_dist_m": 500
+  },
+  {
+    "name": "Alytes obstetricans",
+    "file": "Alytes_obstetricans.geojson",
+    "taxonomic_group": "amphibian",
+    "ne500": 0.1398,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 187,
+    "buffer_dist_m": 1500
+  },
+  {
+    "name": "Apium repens",
+    "file": "Apium_repens.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "not_assessed",
+    "n_pops_spatial": 4,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Bupleurum tenuissimum",
+    "file": "Bupleurum_tenuissimum.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "not_assessed",
+    "n_pops_spatial": 2,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Carex diandra",
+    "file": "Carex_diandra.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 14,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Carex trinervis",
+    "file": "Carex_trinervis.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0.3333,
+    "pm": null,
+    "iucn": "not_assessed",
+    "n_pops_spatial": 10,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Deschampsia setacea",
+    "file": "Deschampsia_setacea.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "not_assessed",
+    "n_pops_spatial": 2,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Eriophorum gracile",
+    "file": "Eriophorum_gracile.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0,
+    "pm": 0.3333,
+    "iucn": "nt",
+    "n_pops_spatial": 3,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Gentianella uliginosa",
+    "file": "Gentianella_uliginosa.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "not_assessed",
+    "n_pops_spatial": 5,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Herminium monorchis",
+    "file": "Herminium_monorchis.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 1,
+    "pm": 0.3333,
+    "iucn": "dd",
+    "n_pops_spatial": 4,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Juncus capitatus",
+    "file": "Juncus_capitatus.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0,
+    "pm": 0.3333,
+    "iucn": "lc",
+    "n_pops_spatial": 1,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Liparis loeselii",
+    "file": "Liparis_loeselii.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0,
+    "pm": 0.2857,
+    "iucn": "nt",
+    "n_pops_spatial": 2,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Potamogeton acutifolius",
+    "file": "Potamogeton_acutifolius.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0.0769,
+    "pm": null,
+    "iucn": "nt",
+    "n_pops_spatial": 13,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Potamogeton coloratus",
+    "file": "Potamogeton_coloratus.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 9,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Potamogeton compressus",
+    "file": "Potamogeton_compressus.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "dd",
+    "n_pops_spatial": 2,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Ranunculus ololeucos",
+    "file": "Ranunculus_ololeucos.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0.0909,
+    "pm": null,
+    "iucn": "dd",
+    "n_pops_spatial": 22,
+    "buffer_dist_m": 2000
+  },
+  {
+    "name": "Schoenoplectus pungens",
+    "file": "Schoenoplectus_pungens.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "not_assessed",
+    "n_pops_spatial": 3,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Schoenoplectus triqueter",
+    "file": "Schoenoplectus_triqueter.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 7,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Dactylorhiza sphagnicola",
+    "file": "Dactylorhiza_sphagnicola.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "not_assessed",
+    "n_pops_spatial": 29,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Orchis morio",
+    "file": "Orchis_morio.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0.2,
+    "pm": null,
+    "iucn": "nt",
+    "n_pops_spatial": 26,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Orobanche rapum-genistae",
+    "file": "Orobanche_rapum-genistae.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "not_assessed",
+    "n_pops_spatial": 15,
+    "buffer_dist_m": 6000
+  },
+  {
+    "name": "Platanthera bifolia",
+    "file": "Platanthera_bifolia.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0.0556,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 18,
+    "buffer_dist_m": 7000
+  },
+  {
+    "name": "Mentha pulegium",
+    "file": "Mentha_pulegium.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0.0333,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 53,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Orchis purpurea",
+    "file": "Orchis_purpurea.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0.0476,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 21,
+    "buffer_dist_m": 5000
+  },
+  {
+    "name": "Scorzonera humilis",
+    "file": "Scorzonera_humilis.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0.0294,
+    "pm": null,
+    "iucn": "not_assessed",
+    "n_pops_spatial": 68,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Wahlenbergia hederacea",
+    "file": "Wahlenbergia_hederacea.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "not_assessed",
+    "n_pops_spatial": 54,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Stratiotes aloides",
+    "file": "Stratiotes_aloides.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": null,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 54,
+    "buffer_dist_m": 3000
+  },
+  {
+    "name": "Atriplex pedunculata",
+    "file": "Atriplex_pedunculata.geojson",
+    "taxonomic_group": null,
+    "ne500": null,
+    "pm": null,
+    "iucn": null,
+    "n_pops_spatial": 2,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Luronium natans",
+    "file": "Luronium_natans.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0.0625,
+    "pm": 0.9444,
+    "iucn": "lc",
+    "n_pops_spatial": 18,
+    "buffer_dist_m": 4000
+  },
+  {
+    "name": "Baldellia ranunculoides",
+    "file": "Baldellia_ranunculoides.geojson",
+    "taxonomic_group": "angiosperm",
+    "ne500": 0.05,
+    "pm": null,
+    "iucn": "nt",
+    "n_pops_spatial": 21,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Hamatocaulis vernicosus",
+    "file": "Hamatocaulis_vernicosus.geojson",
+    "taxonomic_group": "bryophyte",
+    "ne500": 0,
+    "pm": 0.4444,
+    "iucn": "vu",
+    "n_pops_spatial": 4,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Diphasiastrum tristachyum",
+    "file": "Diphasiastrum_tristachyum.geojson",
+    "taxonomic_group": "pteridophytes",
+    "ne500": 0,
+    "pm": null,
+    "iucn": "not_assessed",
+    "n_pops_spatial": 4,
+    "buffer_dist_m": 1000
+  },
+  {
+    "name": "Pilularia globulifera",
+    "file": "Pilularia_globulifera.geojson",
+    "taxonomic_group": "pteridophytes",
+    "ne500": 0.5,
+    "pm": null,
+    "iucn": "lc",
+    "n_pops_spatial": 6,
+    "buffer_dist_m": 5000
+  }
+]

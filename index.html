@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belgium Genetic Indicators — Population Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+  <!-- ── Sidebar ─────────────────────────────────────────────────────────── -->
+  <aside id="sidebar">
+    <div id="sidebar-header">
+      <h1>Genetic Indicators</h1>
+      <p class="subtitle">Belgium · Source B species (INBO)</p>
+      <input id="search" type="text" placeholder="Search species…" autocomplete="off"/>
+    </div>
+    <div id="species-list"></div>
+  </aside>
+
+  <!-- ── Map ─────────────────────────────────────────────────────────────── -->
+  <main id="map"></main>
+
+  <!-- ── Modal ───────────────────────────────────────────────────────────── -->
+  <div id="modal-overlay" class="hidden">
+    <div id="modal">
+      <div id="modal-header">
+        <div>
+          <h2 id="modal-title"></h2>
+          <div id="modal-tags"></div>
+        </div>
+        <button id="modal-close" aria-label="Close">×</button>
+      </div>
+      <div id="modal-body">
+        <table id="modal-table">
+          <thead>
+            <tr>
+              <th>Population</th>
+              <th>Area (ha)</th>
+              <th>Occurrences</th>
+            </tr>
+          </thead>
+          <tbody id="modal-tbody"></tbody>
+        </table>
+      </div>
+      <div id="modal-footer">
+        <span id="modal-count"></span>
+        <button id="btn-download">Download CSV</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-providers@2.0.0/leaflet-providers.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,5370 @@
+{
+  "Aeshna isoceles": {
+    "n_extant": 1,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Alosa fallax": {
+    "n_extant": 1,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Alytes obstetricans": {
+    "n_extant": 186,
+    "n_spatial": 187,
+    "validated_pop_ids": [
+      166,
+      79,
+      55,
+      117,
+      43,
+      51,
+      122,
+      139,
+      104,
+      36,
+      88,
+      31,
+      120,
+      82,
+      130,
+      48,
+      39,
+      111,
+      83,
+      50,
+      54,
+      16,
+      108,
+      187,
+      60,
+      165,
+      133,
+      7,
+      134,
+      101,
+      61,
+      97,
+      5,
+      69,
+      4,
+      162,
+      25,
+      49,
+      96,
+      110,
+      185,
+      161,
+      3,
+      107,
+      160,
+      178,
+      64,
+      127,
+      170,
+      77,
+      95,
+      129,
+      11,
+      15,
+      74,
+      155,
+      186,
+      6,
+      12,
+      28,
+      85,
+      112,
+      140,
+      168,
+      1,
+      34,
+      93,
+      158,
+      42,
+      70,
+      78,
+      115,
+      131,
+      167,
+      174,
+      37,
+      40,
+      52,
+      57,
+      58,
+      73,
+      86,
+      118,
+      132,
+      142,
+      8,
+      9,
+      47,
+      75,
+      94,
+      98,
+      123,
+      135,
+      148,
+      156,
+      159,
+      163,
+      169,
+      171,
+      17,
+      33,
+      38,
+      44,
+      67,
+      76,
+      103,
+      121,
+      124,
+      126,
+      149,
+      184,
+      2,
+      10,
+      13,
+      14,
+      19,
+      20,
+      30,
+      32,
+      35,
+      72,
+      84,
+      91,
+      92,
+      100,
+      109,
+      116,
+      119,
+      138,
+      143,
+      145,
+      147,
+      150,
+      151,
+      152,
+      164,
+      172,
+      180,
+      182,
+      183,
+      18,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      29,
+      41,
+      45,
+      46,
+      53,
+      56,
+      59,
+      62,
+      63,
+      65,
+      66,
+      68,
+      71,
+      80,
+      81,
+      87,
+      89,
+      90,
+      99,
+      102,
+      105,
+      106,
+      113,
+      114,
+      125,
+      128,
+      136,
+      137,
+      141,
+      144,
+      146,
+      153,
+      154,
+      157,
+      173,
+      175,
+      176,
+      177,
+      179
+    ],
+    "discarded_pop_ids": [
+      181
+    ],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Anguilla anguilla": {
+    "n_extant": 1,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Anisus vorticulus": {
+    "n_extant": -999,
+    "n_spatial": 3,
+    "validated_pop_ids": [
+      1,
+      2,
+      3
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Apatura iris": {
+    "n_extant": 1,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "1": {
+        "name": "Belgium",
+        "confidence": "probable",
+        "locality": "Beaurieux"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Apium repens": {
+    "n_extant": 4,
+    "n_spatial": 4,
+    "validated_pop_ids": [
+      1,
+      3,
+      2,
+      4
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "1": {
+        "name": "Mechelen",
+        "confidence": "high",
+        "locality": "Mechelen-Zuid"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Atriplex pedunculata": {
+    "n_extant": -999,
+    "n_spatial": 2,
+    "validated_pop_ids": [
+      1,
+      2
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Baldellia ranunculoides": {
+    "n_extant": 20,
+    "n_spatial": 21,
+    "validated_pop_ids": [
+      2,
+      4,
+      6,
+      7,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      18,
+      21,
+      9,
+      1,
+      19,
+      17,
+      20,
+      3,
+      5,
+      8
+    ],
+    "discarded_pop_ids": [
+      16
+    ],
+    "pop_names": {
+      "7": {
+        "name": "Ravels",
+        "confidence": "probable",
+        "locality": "Herselt"
+      },
+      "14": {
+        "name": "Langdonken",
+        "confidence": "probable",
+        "locality": "Zonhoven"
+      },
+      "6": {
+        "name": "Lille",
+        "confidence": "high",
+        "locality": "Lille"
+      },
+      "15": {
+        "name": "Meergoor",
+        "confidence": "probable",
+        "locality": "Mol"
+      },
+      "2": {
+        "name": "Woumen",
+        "confidence": "high",
+        "locality": "Woumen"
+      },
+      "11": {
+        "name": "Het Walenbos",
+        "confidence": "probable",
+        "locality": "Arendonk"
+      },
+      "12": {
+        "name": "Zedelgem",
+        "confidence": "probable",
+        "locality": "Zwaneven"
+      },
+      "18": {
+        "name": "Beernem",
+        "confidence": "probable",
+        "locality": "Genk"
+      },
+      "21": {
+        "name": "Averbode",
+        "confidence": "probable",
+        "locality": "Neeroeteren"
+      },
+      "13": {
+        "name": "Boechout",
+        "confidence": "probable",
+        "locality": "Turnhout"
+      },
+      "4": {
+        "name": "Landschap De Liereman",
+        "confidence": "probable",
+        "locality": "Beernem"
+      },
+      "10": {
+        "name": "Bosreservaat De Goorboseen",
+        "confidence": "probable",
+        "locality": "Averbode"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Barbastella barbastellus": {
+    "n_extant": 2,
+    "n_spatial": 2,
+    "validated_pop_ids": [
+      1,
+      2
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "1": {
+        "name": "Antwerp",
+        "confidence": "probable",
+        "locality": "Zwaanaarde"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Bombina variegata": {
+    "n_extant": 12,
+    "n_spatial": 14,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      10,
+      12,
+      14,
+      9,
+      4,
+      8,
+      5
+    ],
+    "discarded_pop_ids": [
+      11,
+      13
+    ],
+    "pop_names": {
+      "3": {
+        "name": "Ligneuville",
+        "confidence": "high",
+        "locality": "Fronville"
+      },
+      "7": {
+        "name": "Esneux",
+        "confidence": "probable",
+        "locality": "Vehan"
+      },
+      "1": {
+        "name": "Comblain - la - tour",
+        "confidence": "probable",
+        "locality": "Oignies-en-Thiérache"
+      },
+      "6": {
+        "name": "Sur-le-mont",
+        "confidence": "high",
+        "locality": "Mont"
+      },
+      "10": {
+        "name": "Chabrehez",
+        "confidence": "high",
+        "locality": "Chabrehez"
+      },
+      "12": {
+        "name": "Chaudfontaine",
+        "confidence": "probable",
+        "locality": "Murrange"
+      },
+      "2": {
+        "name": "Heer",
+        "confidence": "high",
+        "locality": "Heer"
+      },
+      "14": {
+        "name": "Krinkelt",
+        "confidence": "probable",
+        "locality": "Surister"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Bufo calamita": {
+    "n_extant": 13,
+    "n_spatial": 13,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      9
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "2": {
+        "name": "Dilsen",
+        "confidence": "probable",
+        "locality": "Doel"
+      },
+      "5": {
+        "name": "Houthalen-Helchteren",
+        "confidence": "probable",
+        "locality": "Achterbroek"
+      },
+      "6": {
+        "name": "Hazopweg haven",
+        "confidence": "probable",
+        "locality": "Zwaneven"
+      },
+      "4": {
+        "name": "Oud Turnhout",
+        "confidence": "probable",
+        "locality": "Bosstraat"
+      },
+      "8": {
+        "name": "Mechelse Heide",
+        "confidence": "probable",
+        "locality": "Mechelen-aan-de-Maas"
+      },
+      "1": {
+        "name": "Koksijde",
+        "confidence": "probable",
+        "locality": "Oosthoek"
+      },
+      "3": {
+        "name": "Oudsbergen",
+        "confidence": "probable",
+        "locality": "Boussu-en-Fagne"
+      },
+      "12": {
+        "name": "Winterslag",
+        "confidence": "probable",
+        "locality": "Gestel"
+      },
+      "13": {
+        "name": "Natuurreservaat De Maat",
+        "confidence": "high",
+        "locality": "De Maat"
+      },
+      "10": {
+        "name": "Châtillon",
+        "confidence": "high",
+        "locality": "Lillo"
+      },
+      "7": {
+        "name": "Couvin",
+        "confidence": "probable",
+        "locality": "Fourneau David"
+      },
+      "11": {
+        "name": "Boom",
+        "confidence": "probable",
+        "locality": "Rotem"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Bupleurum tenuissimum": {
+    "n_extant": -999,
+    "n_spatial": 2,
+    "validated_pop_ids": [
+      1,
+      2
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Calopteryx virgo": {
+    "n_extant": 1,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Carex diandra": {
+    "n_extant": 11,
+    "n_spatial": 14,
+    "validated_pop_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      7,
+      1,
+      11,
+      12
+    ],
+    "discarded_pop_ids": [
+      8,
+      13,
+      14
+    ],
+    "pop_names": {
+      "3": {
+        "name": "Averbode",
+        "confidence": "high",
+        "locality": "Gelrode"
+      },
+      "2": {
+        "name": "Lipseinde",
+        "confidence": "probable",
+        "locality": "Lemmeken"
+      },
+      "9": {
+        "name": "Berg",
+        "confidence": "probable",
+        "locality": "De Vrij"
+      },
+      "6": {
+        "name": "Orveytbos",
+        "confidence": "probable",
+        "locality": "Averbode"
+      },
+      "5": {
+        "name": "Kerkom",
+        "confidence": "high",
+        "locality": "Kerkom"
+      },
+      "4": {
+        "name": "Bremt",
+        "confidence": "high",
+        "locality": "Bremt"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Carex trinervis": {
+    "n_extant": 3,
+    "n_spatial": 10,
+    "validated_pop_ids": [
+      1,
+      2,
+      5
+    ],
+    "discarded_pop_ids": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "pop_names": {
+      "1": {
+        "name": "De Hann",
+        "confidence": "high",
+        "locality": "De Panne"
+      },
+      "2": {
+        "name": "Koksijde",
+        "confidence": "high",
+        "locality": "Koksijde-Bad"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Castor fiber": {
+    "n_extant": 1,
+    "n_spatial": 4,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [
+      2,
+      3,
+      4
+    ],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Cobitis taenia": {
+    "n_extant": 7,
+    "n_spatial": 33,
+    "validated_pop_ids": [
+      2,
+      3,
+      14,
+      17,
+      19,
+      29,
+      15
+    ],
+    "discarded_pop_ids": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      18,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      30,
+      31,
+      32,
+      33
+    ],
+    "pop_names": {
+      "17": {
+        "name": "Sub-basin Nete",
+        "confidence": "probable",
+        "locality": "Zwaantje"
+      },
+      "19": {
+        "name": "Sub-basin Lower Scheldt",
+        "confidence": "probable",
+        "locality": "Maria-ter-Heide"
+      },
+      "29": {
+        "name": "Sub-basin Yser",
+        "confidence": "probable",
+        "locality": "Somagne"
+      },
+      "2": {
+        "name": "Sub-basin Leie",
+        "confidence": "probable",
+        "locality": "Obigies"
+      },
+      "3": {
+        "name": "Sub-basin Demer",
+        "confidence": "probable",
+        "locality": "Sleutel van Holland"
+      },
+      "14": {
+        "name": "Sub-basin Meuse",
+        "confidence": "probable",
+        "locality": "Sint-Kruis-Winkel"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Coenagrion hastulatum": {
+    "n_extant": 3,
+    "n_spatial": 3,
+    "validated_pop_ids": [
+      1,
+      2,
+      3
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "1": {
+        "name": "Hautes fagnes",
+        "confidence": "probable",
+        "locality": "Oud Waterschei"
+      },
+      "2": {
+        "name": "Fraiture",
+        "confidence": "probable",
+        "locality": "Chabrehez"
+      },
+      "3": {
+        "name": "Limburg",
+        "confidence": "probable",
+        "locality": "Mont Rigi"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Coenagrion lunulatum": {
+    "n_extant": 3,
+    "n_spatial": 3,
+    "validated_pop_ids": [
+      2,
+      3,
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "3": {
+        "name": "Turnhout",
+        "confidence": "high",
+        "locality": "Turnhout"
+      },
+      "2": {
+        "name": "Oudsbergen",
+        "confidence": "probable",
+        "locality": "Opglabbeek"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Coenagrion pulchellum": {
+    "n_extant": 4,
+    "n_spatial": 12,
+    "validated_pop_ids": [
+      1,
+      5,
+      6,
+      2
+    ],
+    "discarded_pop_ids": [
+      3,
+      4,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Coronella austriaca": {
+    "n_extant": 79,
+    "n_spatial": 71,
+    "validated_pop_ids": [
+      2,
+      42,
+      12,
+      5,
+      11,
+      26,
+      37,
+      55,
+      50,
+      16,
+      20,
+      30,
+      57,
+      1,
+      49,
+      44,
+      21,
+      22,
+      56,
+      25,
+      41,
+      40,
+      70,
+      33,
+      23,
+      24,
+      29,
+      34,
+      45,
+      52,
+      62,
+      27,
+      60,
+      61,
+      69,
+      32,
+      39,
+      58,
+      14,
+      18,
+      35,
+      47,
+      54,
+      66,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      15,
+      17,
+      19,
+      28,
+      31,
+      36,
+      38,
+      43,
+      46,
+      48,
+      51,
+      53,
+      59,
+      63,
+      64,
+      65,
+      67,
+      68,
+      71
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Cottus rhenanus": {
+    "n_extant": 10,
+    "n_spatial": 76,
+    "validated_pop_ids": [
+      7,
+      9,
+      15,
+      26,
+      29,
+      44,
+      45,
+      47,
+      57,
+      58
+    ],
+    "discarded_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      27,
+      28,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      46,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+    ],
+    "pop_names": {
+      "7": {
+        "name": "Meuse",
+        "confidence": "probable",
+        "locality": "Nismes"
+      },
+      "9": {
+        "name": "Semois-Chiers",
+        "confidence": "probable",
+        "locality": "Nismes"
+      },
+      "29": {
+        "name": "Lesse",
+        "confidence": "high",
+        "locality": "Lessive"
+      },
+      "15": {
+        "name": "Ourthe",
+        "confidence": "high",
+        "locality": "Mortehan"
+      },
+      "44": {
+        "name": "Lower Scheldt",
+        "confidence": "probable",
+        "locality": "Ortheuville"
+      },
+      "45": {
+        "name": "Dyle-Zenne",
+        "confidence": "probable",
+        "locality": "Lesterny"
+      },
+      "47": {
+        "name": "Ambleve",
+        "confidence": "probable",
+        "locality": "Jemelle"
+      },
+      "26": {
+        "name": "Meuse Aval",
+        "confidence": "probable",
+        "locality": "Belvaux"
+      },
+      "57": {
+        "name": "Meuse amont et oise",
+        "confidence": "probable",
+        "locality": "Priesmont"
+      },
+      "58": {
+        "name": "Upper Scheldt",
+        "confidence": "probable",
+        "locality": "Priesmont"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Cricetus cricetus": {
+    "n_extant": 1,
+    "n_spatial": 4,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "2": {
+        "name": "Bollenberg",
+        "confidence": "probable",
+        "locality": "Mulken"
+      },
+      "1": {
+        "name": "Othée",
+        "confidence": "probable",
+        "locality": "Raatshoven"
+      },
+      "3": {
+        "name": "Tongeren",
+        "confidence": "probable",
+        "locality": "Opbrakel"
+      },
+      "4": {
+        "name": "Genoelsenderen",
+        "confidence": "probable",
+        "locality": "Sint-Verona"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Crocidura leucodon": {
+    "n_extant": -999,
+    "n_spatial": 48,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Cucujus cinnaberinus": {
+    "n_extant": 1,
+    "n_spatial": 3,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [
+      2,
+      3
+    ],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Cyaniris semiargus": {
+    "n_extant": 2,
+    "n_spatial": 14,
+    "validated_pop_ids": [
+      5,
+      1
+    ],
+    "discarded_pop_ids": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "pop_names": {
+      "5": {
+        "name": "East Flanders",
+        "confidence": "probable",
+        "locality": "Petit Havré"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Dactylorhiza sphagnicola": {
+    "n_extant": 25,
+    "n_spatial": 29,
+    "validated_pop_ids": [
+      24,
+      11,
+      29,
+      16,
+      6,
+      2,
+      4,
+      18,
+      22,
+      5,
+      7,
+      8,
+      14,
+      12,
+      1,
+      20,
+      9,
+      13,
+      15,
+      3,
+      21,
+      25,
+      10,
+      17,
+      19
+    ],
+    "discarded_pop_ids": [
+      23,
+      26,
+      27,
+      28
+    ],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Deschampsia setacea": {
+    "n_extant": 1,
+    "n_spatial": 2,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [
+      2
+    ],
+    "pop_names": {
+      "1": {
+        "name": "Natuurreservaat Turnhouts Vennengebied",
+        "confidence": "high",
+        "locality": "Turnhout"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Diphasiastrum tristachyum": {
+    "n_extant": 4,
+    "n_spatial": 4,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "2": {
+        "name": "Camp de Lagland",
+        "confidence": "probable",
+        "locality": "Mechelen-aan-de-Maas"
+      },
+      "3": {
+        "name": "Aarschot",
+        "confidence": "probable",
+        "locality": "Châtillon"
+      },
+      "1": {
+        "name": "Sourbrodt",
+        "confidence": "probable",
+        "locality": "Aarschot"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Dolomedes fimbriatus": {
+    "n_extant": 72,
+    "n_spatial": 75,
+    "validated_pop_ids": [
+      29,
+      30,
+      35,
+      73,
+      14,
+      9,
+      37,
+      22,
+      68,
+      15,
+      6,
+      42,
+      49,
+      33,
+      53,
+      17,
+      23,
+      46,
+      44,
+      51,
+      11,
+      24,
+      26,
+      54,
+      60,
+      64,
+      75,
+      39,
+      40,
+      43,
+      48,
+      56,
+      1,
+      12,
+      32,
+      45,
+      52,
+      61,
+      72,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      10,
+      13,
+      16,
+      18,
+      19,
+      20,
+      21,
+      25,
+      27,
+      28,
+      31,
+      34,
+      36,
+      38,
+      41,
+      47,
+      50,
+      55,
+      57,
+      58,
+      59,
+      62,
+      63,
+      65,
+      66,
+      67,
+      69
+    ],
+    "discarded_pop_ids": [
+      70,
+      71,
+      74
+    ],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Elater ferrugineus": {
+    "n_extant": 2,
+    "n_spatial": 3,
+    "validated_pop_ids": [
+      2,
+      1
+    ],
+    "discarded_pop_ids": [
+      3
+    ],
+    "pop_names": {
+      "2": {
+        "name": "West Flanders",
+        "confidence": "probable",
+        "locality": "Wieltje"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Ephippiger ephippiger": {
+    "n_extant": 1,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Eptesicus serotinus": {
+    "n_extant": 1,
+    "n_spatial": 8,
+    "validated_pop_ids": [
+      5
+    ],
+    "discarded_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "pop_names": {
+      "5": {
+        "name": "Belgium",
+        "confidence": "probable",
+        "locality": "Wideumont"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Eresus sandaliatus": {
+    "n_extant": 4,
+    "n_spatial": 5,
+    "validated_pop_ids": [
+      3,
+      4,
+      5,
+      1
+    ],
+    "discarded_pop_ids": [
+      2
+    ],
+    "pop_names": {
+      "3": {
+        "name": "Natuurreservaat Bleekerheide",
+        "confidence": "probable",
+        "locality": "Heeserbergen"
+      },
+      "4": {
+        "name": "Lommel Kristalpark",
+        "confidence": "high",
+        "locality": "Lommel"
+      },
+      "5": {
+        "name": "Natuurreservaat Heuvelse Heide",
+        "confidence": "probable",
+        "locality": "Heide-Heuvel"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Eriophorum gracile": {
+    "n_extant": 2,
+    "n_spatial": 3,
+    "validated_pop_ids": [
+      1,
+      2
+    ],
+    "discarded_pop_ids": [
+      3
+    ],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Erynnis tages": {
+    "n_extant": 8,
+    "n_spatial": 44,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      16,
+      22,
+      31,
+      24
+    ],
+    "discarded_pop_ids": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "pop_names": {
+      "1": {
+        "name": "Flanders",
+        "confidence": "probable",
+        "locality": "Matagne-la-Grande"
+      },
+      "31": {
+        "name": "Evrehailles",
+        "confidence": "probable",
+        "locality": "Hees"
+      },
+      "22": {
+        "name": "Sprimont",
+        "confidence": "probable",
+        "locality": "Fronville"
+      },
+      "16": {
+        "name": "Aiseau-Presies",
+        "confidence": "probable",
+        "locality": "Maizeret"
+      },
+      "2": {
+        "name": "Marche-en-Famenne",
+        "confidence": "probable",
+        "locality": "Cerfontaine"
+      },
+      "3": {
+        "name": "Parc Naturel de Gaume",
+        "confidence": "probable",
+        "locality": "Froidchapelle"
+      },
+      "4": {
+        "name": "Amay-Ardenne",
+        "confidence": "probable",
+        "locality": "Jamagne"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Euphydryas aurinia": {
+    "n_extant": 1,
+    "n_spatial": 5,
+    "validated_pop_ids": [
+      5
+    ],
+    "discarded_pop_ids": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pop_names": {
+      "5": {
+        "name": "Belgium",
+        "confidence": "probable",
+        "locality": "Berg"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Euplagia quadripunctaria": {
+    "n_extant": 1,
+    "n_spatial": 10,
+    "validated_pop_ids": [
+      8
+    ],
+    "discarded_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10
+    ],
+    "pop_names": {
+      "8": {
+        "name": "Belgium",
+        "confidence": "probable",
+        "locality": "Radelange"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Gentianella uliginosa": {
+    "n_extant": 3,
+    "n_spatial": 5,
+    "validated_pop_ids": [
+      1,
+      5,
+      2
+    ],
+    "discarded_pop_ids": [
+      3,
+      4
+    ],
+    "pop_names": {
+      "1": {
+        "name": "Westhoekreservaat (De Panne)",
+        "confidence": "high",
+        "locality": "De Panne"
+      },
+      "5": {
+        "name": "Zwinbosjes (Knokke)",
+        "confidence": "high",
+        "locality": "Knokke"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Gomphus vulgatissimus": {
+    "n_extant": 2,
+    "n_spatial": 2,
+    "validated_pop_ids": [
+      1,
+      2
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "2": {
+        "name": "Antwerp",
+        "confidence": "probable",
+        "locality": "Achterbos"
+      },
+      "1": {
+        "name": "Wallonia",
+        "confidence": "high",
+        "locality": "Wellin"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Hamatocaulis vernicosus": {
+    "n_extant": 4,
+    "n_spatial": 4,
+    "validated_pop_ids": [
+      4,
+      1,
+      2,
+      3
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "4": {
+        "name": "Villiers-Tortru",
+        "confidence": "high",
+        "locality": "Villers-Tortru"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Herminium monorchis": {
+    "n_extant": 1,
+    "n_spatial": 4,
+    "validated_pop_ids": [
+      2
+    ],
+    "discarded_pop_ids": [
+      1,
+      3,
+      4
+    ],
+    "pop_names": {
+      "2": {
+        "name": "Koksijde",
+        "confidence": "high",
+        "locality": "Koksijde-Dorp"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Hesperia comma": {
+    "n_extant": 6,
+    "n_spatial": 7,
+    "validated_pop_ids": [
+      4,
+      5,
+      3,
+      1,
+      2,
+      6
+    ],
+    "discarded_pop_ids": [
+      7
+    ],
+    "pop_names": {
+      "5": {
+        "name": "Ravels",
+        "confidence": "probable",
+        "locality": "Vance"
+      },
+      "4": {
+        "name": "Camp Roi Albert",
+        "confidence": "probable",
+        "locality": "Fronville"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Hipparchia semele": {
+    "n_extant": 2,
+    "n_spatial": 3,
+    "validated_pop_ids": [
+      2,
+      1
+    ],
+    "discarded_pop_ids": [
+      3
+    ],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Hyla arborea": {
+    "n_extant": 8,
+    "n_spatial": 20,
+    "validated_pop_ids": [
+      2,
+      3,
+      4,
+      5,
+      9,
+      17,
+      18,
+      15
+    ],
+    "discarded_pop_ids": [
+      1,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      19,
+      20
+    ],
+    "pop_names": {
+      "2": {
+        "name": "Vijvergebied Midden-Limburg",
+        "confidence": "probable",
+        "locality": "Sint Anna ter Muiden"
+      },
+      "17": {
+        "name": "Merkske",
+        "confidence": "probable",
+        "locality": "Koersels Kapelleke"
+      },
+      "18": {
+        "name": "Camp Roi Albert",
+        "confidence": "probable",
+        "locality": "Fronville"
+      },
+      "5": {
+        "name": "NO-Limburg",
+        "confidence": "probable",
+        "locality": "Nieuwrode"
+      },
+      "4": {
+        "name": "De Maten",
+        "confidence": "probable",
+        "locality": "Oudergem"
+      },
+      "3": {
+        "name": "Dauteweyers",
+        "confidence": "probable",
+        "locality": "Ostemerée"
+      },
+      "9": {
+        "name": "Maaswinkel",
+        "confidence": "probable",
+        "locality": "Wintam"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Juncus capitatus": {
+    "n_extant": 1,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "1": {
+        "name": "Dassenaarde",
+        "confidence": "probable",
+        "locality": "Molenstede"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Lacerta agilis": {
+    "n_extant": 9,
+    "n_spatial": 16,
+    "validated_pop_ids": [
+      1,
+      5,
+      6,
+      10,
+      11,
+      12,
+      15,
+      16,
+      14
+    ],
+    "discarded_pop_ids": [
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      13
+    ],
+    "pop_names": {
+      "12": {
+        "name": "Torgny",
+        "confidence": "high",
+        "locality": "Toernich"
+      },
+      "1": {
+        "name": "West Arlon",
+        "confidence": "probable",
+        "locality": "Torgny"
+      },
+      "10": {
+        "name": "Robelmont",
+        "confidence": "high",
+        "locality": "Robelmont"
+      },
+      "16": {
+        "name": "Clairefontaine",
+        "confidence": "high",
+        "locality": "Manège de Clairefontaine"
+      },
+      "15": {
+        "name": "Valansart",
+        "confidence": "probable",
+        "locality": "Aubange"
+      },
+      "11": {
+        "name": "Buzenol",
+        "confidence": "high",
+        "locality": "Buzenol"
+      },
+      "5": {
+        "name": "Fontenoille",
+        "confidence": "probable",
+        "locality": "Felenne"
+      },
+      "6": {
+        "name": "Athus",
+        "confidence": "probable",
+        "locality": "Bachte"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Lampetra fluviatilis": {
+    "n_extant": 4,
+    "n_spatial": 16,
+    "validated_pop_ids": [
+      5,
+      16,
+      2,
+      4
+    ],
+    "discarded_pop_ids": [
+      1,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "pop_names": {
+      "5": {
+        "name": "Sub-basin Bruges Polders",
+        "confidence": "probable",
+        "locality": "Zeebrugge-Dorp"
+      },
+      "16": {
+        "name": "Sub-basin Lower Scheldt",
+        "confidence": "probable",
+        "locality": "Antwerpen"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Lampetra planeri": {
+    "n_extant": 10,
+    "n_spatial": 49,
+    "validated_pop_ids": [
+      1,
+      2,
+      7,
+      15,
+      19,
+      25,
+      27,
+      31,
+      34,
+      46
+    ],
+    "discarded_pop_ids": [
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      28,
+      29,
+      30,
+      32,
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      47,
+      48,
+      49
+    ],
+    "pop_names": {
+      "27": {
+        "name": "Amblève",
+        "confidence": "probable",
+        "locality": "Stalken"
+      },
+      "7": {
+        "name": "Lesse",
+        "confidence": "high",
+        "locality": "Vloesberg"
+      },
+      "1": {
+        "name": "Meuse",
+        "confidence": "probable",
+        "locality": "Nismes"
+      },
+      "34": {
+        "name": "Demer",
+        "confidence": "probable",
+        "locality": "Lescheret"
+      },
+      "25": {
+        "name": "Meuse amont et Oise",
+        "confidence": "probable",
+        "locality": "Hargimont"
+      },
+      "15": {
+        "name": "Moselle",
+        "confidence": "probable",
+        "locality": "Baronville"
+      },
+      "19": {
+        "name": "Nete",
+        "confidence": "probable",
+        "locality": "Dessel"
+      },
+      "46": {
+        "name": "Semois",
+        "confidence": "probable",
+        "locality": "Reculémont"
+      },
+      "31": {
+        "name": "Ourthe",
+        "confidence": "probable",
+        "locality": "Achel"
+      },
+      "2": {
+        "name": "Dyle-Zenne",
+        "confidence": "probable",
+        "locality": "Boussu-en-Fagne"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Lasiommata megera": {
+    "n_extant": 1,
+    "n_spatial": 3,
+    "validated_pop_ids": [
+      3
+    ],
+    "discarded_pop_ids": [
+      1,
+      2
+    ],
+    "pop_names": {
+      "3": {
+        "name": "Belgium",
+        "confidence": "probable",
+        "locality": "Helkijn"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Leucorrhinia caudalis": {
+    "n_extant": 8,
+    "n_spatial": 8,
+    "validated_pop_ids": [
+      1,
+      4,
+      7,
+      8,
+      6,
+      2,
+      5,
+      3
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "7": {
+        "name": "Chimay",
+        "confidence": "probable",
+        "locality": "Sivry"
+      },
+      "1": {
+        "name": "Zonhoven",
+        "confidence": "probable",
+        "locality": "Boutonville"
+      },
+      "8": {
+        "name": "Malmedy",
+        "confidence": "probable",
+        "locality": "Falize"
+      },
+      "4": {
+        "name": "Zoniënwoud",
+        "confidence": "probable",
+        "locality": "Naninne"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Leucorrhinia pectoralis": {
+    "n_extant": 1,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Liparis loeselii": {
+    "n_extant": 2,
+    "n_spatial": 2,
+    "validated_pop_ids": [
+      2,
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "2": {
+        "name": "Meergoor, Mol",
+        "confidence": "high",
+        "locality": "Mol"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Lucanus cervus": {
+    "n_extant": 30,
+    "n_spatial": 28,
+    "validated_pop_ids": [
+      3,
+      4,
+      5,
+      7,
+      8,
+      10,
+      15,
+      16,
+      17,
+      18,
+      20,
+      27,
+      6,
+      9,
+      21,
+      1,
+      2,
+      11,
+      12,
+      13,
+      14,
+      19,
+      22,
+      23,
+      24,
+      25,
+      26,
+      28
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "3": {
+        "name": "Izegem",
+        "confidence": "probable",
+        "locality": "Eizer"
+      },
+      "17": {
+        "name": "Berlaar",
+        "confidence": "probable",
+        "locality": "Grâce-Berleur"
+      },
+      "15": {
+        "name": "Gent",
+        "confidence": "probable",
+        "locality": "Vignée"
+      },
+      "16": {
+        "name": "Ronse",
+        "confidence": "probable",
+        "locality": "Wépion"
+      },
+      "5": {
+        "name": "Edegem",
+        "confidence": "high",
+        "locality": "Izegem"
+      },
+      "4": {
+        "name": "Oostende",
+        "confidence": "probable",
+        "locality": "Ronse"
+      },
+      "7": {
+        "name": "Sint-Niklaas",
+        "confidence": "high",
+        "locality": "Sint-Pauwels"
+      },
+      "10": {
+        "name": "Zeebrugge",
+        "confidence": "high",
+        "locality": "Zeebrugge-Dorp"
+      },
+      "18": {
+        "name": "Stabroek",
+        "confidence": "probable",
+        "locality": "Bruyères"
+      },
+      "20": {
+        "name": "Galgenberg",
+        "confidence": "probable",
+        "locality": "Veerle"
+      },
+      "8": {
+        "name": "Laakdal",
+        "confidence": "probable",
+        "locality": "Vlaams Plein"
+      },
+      "27": {
+        "name": "Kalmthout",
+        "confidence": "probable",
+        "locality": "Al-Hez"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Luronium natans": {
+    "n_extant": 17,
+    "n_spatial": 18,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      14,
+      15,
+      16,
+      17,
+      8,
+      13,
+      4,
+      12,
+      18
+    ],
+    "discarded_pop_ids": [
+      11
+    ],
+    "pop_names": {
+      "5": {
+        "name": "Turnhout - Arendonk",
+        "confidence": "high",
+        "locality": "Arendonk"
+      },
+      "3": {
+        "name": "Rijkevrosel",
+        "confidence": "probable",
+        "locality": "Gijmel"
+      },
+      "17": {
+        "name": "Lummen",
+        "confidence": "probable",
+        "locality": "Dilsen"
+      },
+      "1": {
+        "name": "Winkelomheide",
+        "confidence": "probable",
+        "locality": "Looi"
+      },
+      "2": {
+        "name": "Kapellen",
+        "confidence": "high",
+        "locality": "Kapellenbos"
+      },
+      "14": {
+        "name": "Herselt-Aarschot",
+        "confidence": "probable",
+        "locality": "Helchteren"
+      },
+      "15": {
+        "name": "Peer",
+        "confidence": "probable",
+        "locality": "Etalle"
+      },
+      "7": {
+        "name": "Bois d' Arlogne",
+        "confidence": "probable",
+        "locality": "Schalbroek"
+      },
+      "6": {
+        "name": "Camp Roi Albert",
+        "confidence": "probable",
+        "locality": "Chapois"
+      },
+      "9": {
+        "name": "Mol",
+        "confidence": "probable",
+        "locality": "Meerhout"
+      },
+      "10": {
+        "name": "Sint-Jozef-Olen",
+        "confidence": "probable",
+        "locality": "Heizehuizen"
+      },
+      "16": {
+        "name": "Zonhoven",
+        "confidence": "probable",
+        "locality": "Ronzon"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Lutra lutra": {
+    "n_extant": 1,
+    "n_spatial": 6,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "pop_names": {
+      "1": {
+        "name": "Belgium",
+        "confidence": "probable",
+        "locality": "Battel"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Lynx lynx": {
+    "n_extant": 1,
+    "n_spatial": 2,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [
+      2
+    ],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Meles meles": {
+    "n_extant": 1,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Melitaea cinxia": {
+    "n_extant": 4,
+    "n_spatial": 7,
+    "validated_pop_ids": [
+      4,
+      7,
+      3,
+      5
+    ],
+    "discarded_pop_ids": [
+      1,
+      2,
+      6
+    ],
+    "pop_names": {
+      "4": {
+        "name": "Parc Naturel de Gaume",
+        "confidence": "probable",
+        "locality": "Maria-ter-Heide"
+      },
+      "7": {
+        "name": "Antwerp",
+        "confidence": "probable",
+        "locality": "Mont Rigi"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Mentha pulegium": {
+    "n_extant": 30,
+    "n_spatial": 53,
+    "validated_pop_ids": [
+      43,
+      9,
+      22,
+      46,
+      6,
+      26,
+      4,
+      5,
+      37,
+      20,
+      21,
+      27,
+      30,
+      39,
+      48,
+      1,
+      2,
+      3,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "discarded_pop_ids": [
+      23,
+      24,
+      25,
+      28,
+      29,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      38,
+      40,
+      41,
+      42,
+      44,
+      45,
+      47,
+      49,
+      50,
+      51,
+      52,
+      53
+    ],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Misgurnus fossilis": {
+    "n_extant": 7,
+    "n_spatial": 3,
+    "validated_pop_ids": [
+      1,
+      3,
+      2
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "1": {
+        "name": "Wik Bokrijk",
+        "confidence": "probable",
+        "locality": "De Vrij"
+      },
+      "3": {
+        "name": "Goorken Arendonk",
+        "confidence": "probable",
+        "locality": "Genk"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Muscardinus avellanarius": {
+    "n_extant": 2,
+    "n_spatial": 49,
+    "validated_pop_ids": [
+      2,
+      19,
+      25
+    ],
+    "discarded_pop_ids": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "pop_names": {
+      "2": {
+        "name": "Wallonia",
+        "confidence": "probable",
+        "locality": "Fagnolle"
+      },
+      "25": {
+        "name": "Voeren",
+        "confidence": "probable",
+        "locality": "Eveux"
+      },
+      "19": {
+        "name": "South Wallonia",
+        "confidence": "probable",
+        "locality": "Han"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Myotis bechsteinii": {
+    "n_extant": 1,
+    "n_spatial": 7,
+    "validated_pop_ids": [
+      6
+    ],
+    "discarded_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Myotis brandtii": {
+    "n_extant": -999,
+    "n_spatial": 10,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Myotis dasycneme": {
+    "n_extant": 1,
+    "n_spatial": 8,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "pop_names": {
+      "1": {
+        "name": "Belgium",
+        "confidence": "probable",
+        "locality": "Binkom"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Myotis daubentonii": {
+    "n_extant": 1,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Myotis emarginatus": {
+    "n_extant": 1,
+    "n_spatial": 8,
+    "validated_pop_ids": [
+      4
+    ],
+    "discarded_pop_ids": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Myotis myotis": {
+    "n_extant": 1,
+    "n_spatial": 6,
+    "validated_pop_ids": [
+      6
+    ],
+    "discarded_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pop_names": {
+      "6": {
+        "name": "South Belgium",
+        "confidence": "probable",
+        "locality": "Nothomb"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Myotis mystacinus": {
+    "n_extant": 1,
+    "n_spatial": 2,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [
+      2
+    ],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Myotis nattereri": {
+    "n_extant": 1,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Natrix helvetica": {
+    "n_extant": 30,
+    "n_spatial": 34,
+    "validated_pop_ids": [
+      17,
+      34,
+      9,
+      22,
+      23,
+      27,
+      33,
+      2,
+      6,
+      3,
+      8,
+      1,
+      29,
+      18,
+      31,
+      14,
+      16,
+      24,
+      25,
+      28,
+      11,
+      12,
+      13,
+      19,
+      32,
+      4,
+      5,
+      7,
+      10,
+      15
+    ],
+    "discarded_pop_ids": [
+      20,
+      21,
+      26,
+      30
+    ],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Nyctalus leisleri": {
+    "n_extant": 1,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Nyctalus noctula": {
+    "n_extant": 1,
+    "n_spatial": 2,
+    "validated_pop_ids": [
+      2
+    ],
+    "discarded_pop_ids": [
+      1
+    ],
+    "pop_names": {
+      "2": {
+        "name": "Belgium",
+        "confidence": "probable",
+        "locality": "Sesselich"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Orchis morio": {
+    "n_extant": 5,
+    "n_spatial": 26,
+    "validated_pop_ids": [
+      4,
+      5,
+      8,
+      16,
+      25
+    ],
+    "discarded_pop_ids": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26
+    ],
+    "pop_names": {
+      "16": {
+        "name": "North Ardennes",
+        "confidence": "high",
+        "locality": "Hamerenne"
+      },
+      "4": {
+        "name": "Boechout",
+        "confidence": "probable",
+        "locality": "Feschaux"
+      },
+      "8": {
+        "name": "Aarschot",
+        "confidence": "probable",
+        "locality": "Rillaar"
+      },
+      "5": {
+        "name": "Virton",
+        "confidence": "probable",
+        "locality": "Villers-le-Gambon"
+      },
+      "25": {
+        "name": "Bouillon",
+        "confidence": "probable",
+        "locality": "Bomal"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Orchis purpurea": {
+    "n_extant": 21,
+    "n_spatial": 21,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      17,
+      15,
+      4,
+      5,
+      6,
+      7,
+      11,
+      16,
+      18,
+      19,
+      20,
+      21
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "9": {
+        "name": "Saint-Georges-sur-Meuse",
+        "confidence": "high",
+        "locality": "Han-sur-Lesse"
+      },
+      "1": {
+        "name": "Gelinden",
+        "confidence": "probable",
+        "locality": "Fagnolle"
+      },
+      "2": {
+        "name": "Bois de Anare",
+        "confidence": "probable",
+        "locality": "Angre"
+      },
+      "13": {
+        "name": "Mechelen",
+        "confidence": "probable",
+        "locality": "Gelinden"
+      },
+      "14": {
+        "name": "Marche-les-Dames",
+        "confidence": "probable",
+        "locality": "Belle-Vue"
+      },
+      "8": {
+        "name": "Mazy",
+        "confidence": "high",
+        "locality": "Mazy"
+      },
+      "3": {
+        "name": "Esneux",
+        "confidence": "probable",
+        "locality": "Mesvin"
+      },
+      "10": {
+        "name": "Massemen",
+        "confidence": "probable",
+        "locality": "Melin"
+      },
+      "12": {
+        "name": "Huccorgne",
+        "confidence": "high",
+        "locality": "Huccorgne"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Orobanche rapum-genistae": {
+    "n_extant": 15,
+    "n_spatial": 15,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      12,
+      14,
+      13,
+      15,
+      5,
+      10,
+      11
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "4": {
+        "name": "Andenne",
+        "confidence": "probable",
+        "locality": "Marche-en-Famenne"
+      },
+      "2": {
+        "name": "Winterslag",
+        "confidence": "probable",
+        "locality": "Wessegem"
+      },
+      "8": {
+        "name": "Aarschot-Scherpenhuevel-Zichem",
+        "confidence": "high",
+        "locality": "Zichem"
+      },
+      "7": {
+        "name": "Zandhoven - Grobbendonk",
+        "confidence": "high",
+        "locality": "Grobbendonk"
+      },
+      "14": {
+        "name": "Kelmis",
+        "confidence": "probable",
+        "locality": "Amelscheid"
+      },
+      "9": {
+        "name": "Nieuwpoort",
+        "confidence": "high",
+        "locality": "Niersant"
+      },
+      "1": {
+        "name": "Ieper",
+        "confidence": "probable",
+        "locality": "Kidspark"
+      },
+      "6": {
+        "name": "Evrehailles",
+        "confidence": "high",
+        "locality": "Viesville"
+      },
+      "3": {
+        "name": "North Jodoigne",
+        "confidence": "probable",
+        "locality": "Nieuwpoort-Bad"
+      },
+      "12": {
+        "name": "Courcelles",
+        "confidence": "probable",
+        "locality": "Andenelle"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Pelobates fuscus": {
+    "n_extant": 4,
+    "n_spatial": 6,
+    "validated_pop_ids": [
+      1,
+      3,
+      5,
+      4
+    ],
+    "discarded_pop_ids": [
+      2,
+      6
+    ],
+    "pop_names": {
+      "1": {
+        "name": "Resterheide",
+        "confidence": "probable",
+        "locality": "Stokrooie"
+      },
+      "3": {
+        "name": "Wortel-Kolonie and Ginhoven",
+        "confidence": "high",
+        "locality": "Ginhoven"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Pelophylax lessonae": {
+    "n_extant": 91,
+    "n_spatial": 254,
+    "validated_pop_ids": [
+      70,
+      112,
+      123,
+      90,
+      21,
+      83,
+      182,
+      167,
+      84,
+      142,
+      124,
+      106,
+      188,
+      219,
+      215,
+      110,
+      107,
+      242,
+      102,
+      253,
+      173,
+      190,
+      193,
+      177,
+      191,
+      134,
+      114,
+      119,
+      153,
+      103,
+      113,
+      169,
+      198,
+      89,
+      131,
+      138,
+      187,
+      61,
+      69,
+      56,
+      74,
+      94,
+      139,
+      181,
+      241,
+      172,
+      174,
+      239,
+      39,
+      86,
+      93,
+      109,
+      170,
+      2,
+      26,
+      98,
+      99,
+      126,
+      133,
+      185,
+      186,
+      221,
+      232,
+      254,
+      6,
+      15,
+      41,
+      140,
+      149,
+      183,
+      211,
+      27,
+      35,
+      36,
+      44,
+      45,
+      48,
+      67,
+      105,
+      125,
+      146,
+      171,
+      194,
+      195,
+      196,
+      220,
+      250,
+      3,
+      11,
+      12,
+      25
+    ],
+    "discarded_pop_ids": [
+      1,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23,
+      24,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      37,
+      38,
+      40,
+      42,
+      43,
+      46,
+      47,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      57,
+      58,
+      59,
+      60,
+      62,
+      63,
+      64,
+      65,
+      66,
+      68,
+      71,
+      72,
+      73,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      85,
+      87,
+      88,
+      91,
+      92,
+      95,
+      96,
+      97,
+      100,
+      101,
+      104,
+      108,
+      111,
+      115,
+      116,
+      117,
+      118,
+      120,
+      121,
+      122,
+      127,
+      128,
+      129,
+      130,
+      132,
+      135,
+      136,
+      137,
+      141,
+      143,
+      144,
+      145,
+      147,
+      148,
+      150,
+      151,
+      152,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      168,
+      175,
+      176,
+      178,
+      179,
+      180,
+      184,
+      189,
+      192,
+      197,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      212,
+      213,
+      214,
+      216,
+      217,
+      218,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      240,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      251,
+      252
+    ],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Petromyzon marinus": {
+    "n_extant": 1,
+    "n_spatial": 6,
+    "validated_pop_ids": [
+      2
+    ],
+    "discarded_pop_ids": [
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "pop_names": {
+      "2": {
+        "name": "Belgium",
+        "confidence": "probable",
+        "locality": "Webbekom"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Phengaris alcon": {
+    "n_extant": 4,
+    "n_spatial": 4,
+    "validated_pop_ids": [
+      1,
+      3,
+      2,
+      4
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "1": {
+        "name": "Groot Schietveld",
+        "confidence": "probable",
+        "locality": "Gooreind"
+      },
+      "3": {
+        "name": "Hageven",
+        "confidence": "probable",
+        "locality": "Helchteren"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Pilularia globulifera": {
+    "n_extant": 6,
+    "n_spatial": 6,
+    "validated_pop_ids": [
+      1,
+      4,
+      6,
+      2,
+      3,
+      5
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "4": {
+        "name": "Koewacht",
+        "confidence": "probable",
+        "locality": "Achterlee"
+      },
+      "1": {
+        "name": "Bos van Houthulst",
+        "confidence": "high",
+        "locality": "Houthulst"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Pipistrellus nathusii": {
+    "n_extant": 1,
+    "n_spatial": 5,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Pipistrellus pipistrellus": {
+    "n_extant": 1,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Pipistrellus pygmaeus": {
+    "n_extant": -999,
+    "n_spatial": 13,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Platanthera bifolia": {
+    "n_extant": 18,
+    "n_spatial": 18,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      12,
+      13,
+      14,
+      15,
+      18,
+      11,
+      17,
+      7,
+      10,
+      4,
+      6,
+      9,
+      16
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "1": {
+        "name": "Maastricht",
+        "confidence": "probable",
+        "locality": "Malavisée"
+      },
+      "12": {
+        "name": "Buggenhout",
+        "confidence": "probable",
+        "locality": "Gevimont"
+      },
+      "8": {
+        "name": "Bos van Aa",
+        "confidence": "probable",
+        "locality": "Oosthoven"
+      },
+      "15": {
+        "name": "Krewinkel",
+        "confidence": "probable",
+        "locality": "Wonk"
+      },
+      "13": {
+        "name": "Andenne",
+        "confidence": "probable",
+        "locality": "Cheneux"
+      },
+      "5": {
+        "name": "Grootmeers en Kleinmeers",
+        "confidence": "probable",
+        "locality": "Beernem"
+      },
+      "18": {
+        "name": "Ravels",
+        "confidence": "probable",
+        "locality": "Krewinkel"
+      },
+      "2": {
+        "name": "Brugge",
+        "confidence": "probable",
+        "locality": "Hermelgem"
+      },
+      "3": {
+        "name": "Knokke-Heist",
+        "confidence": "probable",
+        "locality": "Zemst"
+      },
+      "14": {
+        "name": "Amay",
+        "confidence": "high",
+        "locality": "Amay"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Plecotus auritus": {
+    "n_extant": 1,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Plecotus austriacus": {
+    "n_extant": 6,
+    "n_spatial": 9,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8
+    ],
+    "discarded_pop_ids": [
+      6,
+      7,
+      9
+    ],
+    "pop_names": {
+      "4": {
+        "name": "Moerbeke",
+        "confidence": "probable",
+        "locality": "Engsbergen"
+      },
+      "1": {
+        "name": "Snellegem",
+        "confidence": "probable",
+        "locality": "Baronville"
+      },
+      "2": {
+        "name": "Mons",
+        "confidence": "probable",
+        "locality": "Les Câtillons"
+      },
+      "3": {
+        "name": "East Flanders",
+        "confidence": "probable",
+        "locality": "Maisières"
+      },
+      "5": {
+        "name": "Parc naturel de Gaume",
+        "confidence": "probable",
+        "locality": "Snellegem"
+      },
+      "8": {
+        "name": "Namur",
+        "confidence": "probable",
+        "locality": "Battincourt"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Podarcis muralis": {
+    "n_extant": 1,
+    "n_spatial": 273,
+    "validated_pop_ids": [
+      124
+    ],
+    "discarded_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273
+    ],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Potamogeton acutifolius": {
+    "n_extant": 13,
+    "n_spatial": 13,
+    "validated_pop_ids": [
+      1,
+      4,
+      5,
+      6,
+      8,
+      10,
+      11,
+      12,
+      13,
+      2,
+      3,
+      7,
+      9
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "5": {
+        "name": "Olmen",
+        "confidence": "probable",
+        "locality": "Larum"
+      },
+      "6": {
+        "name": "Tielen",
+        "confidence": "high",
+        "locality": "Tielen"
+      },
+      "4": {
+        "name": "Wintam",
+        "confidence": "high",
+        "locality": "Wintam"
+      },
+      "8": {
+        "name": "De Blankaart",
+        "confidence": "probable",
+        "locality": "Kermt"
+      },
+      "10": {
+        "name": "De Zegge",
+        "confidence": "probable",
+        "locality": "Bolderberg"
+      },
+      "12": {
+        "name": "Oosterlo",
+        "confidence": "high",
+        "locality": "Oosterlo"
+      },
+      "11": {
+        "name": "Munkeboseen",
+        "confidence": "probable",
+        "locality": "Molenveld"
+      },
+      "1": {
+        "name": "Herkenrodebossen",
+        "confidence": "probable",
+        "locality": "Gelrode"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Potamogeton coloratus": {
+    "n_extant": 9,
+    "n_spatial": 9,
+    "validated_pop_ids": [
+      1,
+      6,
+      7,
+      8,
+      2,
+      9,
+      4,
+      3,
+      5
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "6": {
+        "name": "Lubbeek",
+        "confidence": "probable",
+        "locality": "Lemmeken"
+      },
+      "7": {
+        "name": "Lille",
+        "confidence": "high",
+        "locality": "Lille"
+      },
+      "8": {
+        "name": "Berg",
+        "confidence": "probable",
+        "locality": "Lubbeek"
+      },
+      "1": {
+        "name": "De Zandpanne",
+        "confidence": "high",
+        "locality": "De Panne"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Potamogeton compressus": {
+    "n_extant": 2,
+    "n_spatial": 2,
+    "validated_pop_ids": [
+      1,
+      2
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "1": {
+        "name": "Wintam",
+        "confidence": "high",
+        "locality": "Wintam"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Proserpinus proserpina": {
+    "n_extant": 1,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Pyrgus malvae": {
+    "n_extant": 6,
+    "n_spatial": 39,
+    "validated_pop_ids": [
+      4,
+      12,
+      18,
+      30,
+      34,
+      19
+    ],
+    "discarded_pop_ids": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      31,
+      32,
+      33,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "pop_names": {
+      "4": {
+        "name": "Ursel",
+        "confidence": "high",
+        "locality": "Ursel"
+      },
+      "18": {
+        "name": "Boussoit",
+        "confidence": "probable",
+        "locality": "Houdremont"
+      },
+      "30": {
+        "name": "Central-South Wallonia",
+        "confidence": "probable",
+        "locality": "Ombret-Rawsa"
+      },
+      "12": {
+        "name": "Marais d'Harchies",
+        "confidence": "high",
+        "locality": "Harchies"
+      },
+      "34": {
+        "name": "Houthulst",
+        "confidence": "probable",
+        "locality": "Oberhausen"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Pyronia tithonus": {
+    "n_extant": 1,
+    "n_spatial": 2,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [
+      2
+    ],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Rana arvalis": {
+    "n_extant": 42,
+    "n_spatial": 95,
+    "validated_pop_ids": [
+      10,
+      29,
+      20,
+      88,
+      15,
+      19,
+      11,
+      70,
+      83,
+      26,
+      82,
+      66,
+      21,
+      72,
+      78,
+      58,
+      75,
+      57,
+      54,
+      87,
+      24,
+      67,
+      49,
+      52,
+      25,
+      46,
+      31,
+      32,
+      35,
+      50,
+      76,
+      41,
+      65,
+      33,
+      77,
+      80,
+      85,
+      93,
+      13,
+      42,
+      43,
+      44
+    ],
+    "discarded_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      12,
+      14,
+      16,
+      17,
+      18,
+      22,
+      23,
+      27,
+      28,
+      30,
+      34,
+      36,
+      37,
+      38,
+      39,
+      40,
+      45,
+      47,
+      48,
+      51,
+      53,
+      55,
+      56,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      68,
+      69,
+      71,
+      73,
+      74,
+      79,
+      81,
+      84,
+      86,
+      89,
+      90,
+      91,
+      92,
+      94,
+      95
+    ],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Ranunculus ololeucos": {
+    "n_extant": 22,
+    "n_spatial": 22,
+    "validated_pop_ids": [
+      4,
+      6,
+      7,
+      9,
+      10,
+      12,
+      15,
+      16,
+      18,
+      19,
+      22,
+      11,
+      17,
+      3,
+      5,
+      8,
+      1,
+      2,
+      13,
+      14,
+      20,
+      21
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "10": {
+        "name": "Bel",
+        "confidence": "probable",
+        "locality": "Tielen"
+      },
+      "19": {
+        "name": "Zoersel",
+        "confidence": "probable",
+        "locality": "Termolen"
+      },
+      "12": {
+        "name": "Westende",
+        "confidence": "high",
+        "locality": "Tessenderlo"
+      },
+      "7": {
+        "name": "Ravels",
+        "confidence": "probable",
+        "locality": "Kapellen"
+      },
+      "16": {
+        "name": "3de Bataljon Parachutisten Tienen",
+        "confidence": "probable",
+        "locality": "Helchteren"
+      },
+      "18": {
+        "name": "Hamont-Achel",
+        "confidence": "probable",
+        "locality": "Mol"
+      },
+      "6": {
+        "name": "Gooreind",
+        "confidence": "probable",
+        "locality": "Oostmalle"
+      },
+      "15": {
+        "name": "Lozerheide",
+        "confidence": "probable",
+        "locality": "Kuringen-Heide"
+      },
+      "22": {
+        "name": "East Dessel",
+        "confidence": "probable",
+        "locality": "Achel"
+      },
+      "9": {
+        "name": "Nieuwmoer",
+        "confidence": "probable",
+        "locality": "Gijmel"
+      },
+      "4": {
+        "name": "Hoeverheide",
+        "confidence": "probable",
+        "locality": "Beernem"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Rhinolophus ferrumequinum": {
+    "n_extant": 4,
+    "n_spatial": 5,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "discarded_pop_ids": [
+      5
+    ],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Rhodeus amarus": {
+    "n_extant": -999,
+    "n_spatial": 81,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Rhodeus sericeus": {
+    "n_extant": 37,
+    "n_spatial": 6,
+    "validated_pop_ids": [
+      2,
+      6,
+      1,
+      3,
+      4,
+      5
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Salamandra salamandra": {
+    "n_extant": 311,
+    "n_spatial": 150,
+    "validated_pop_ids": [
+      15,
+      73,
+      9,
+      30,
+      64,
+      46,
+      113,
+      83,
+      86,
+      5,
+      24,
+      13,
+      72,
+      48,
+      82,
+      20,
+      89,
+      21,
+      47,
+      123,
+      69,
+      122,
+      37,
+      58,
+      29,
+      11,
+      97,
+      25,
+      117,
+      27,
+      80,
+      2,
+      8,
+      18,
+      105,
+      14,
+      101,
+      128,
+      142,
+      146,
+      57,
+      112,
+      143,
+      6,
+      55,
+      66,
+      38,
+      56,
+      59,
+      130,
+      136,
+      43,
+      74,
+      41,
+      44,
+      50,
+      104,
+      67,
+      110,
+      119,
+      120,
+      121,
+      16,
+      36,
+      90,
+      106,
+      54,
+      77,
+      85,
+      92,
+      126,
+      139,
+      7,
+      42,
+      96,
+      137,
+      148,
+      3,
+      23,
+      26,
+      34,
+      35,
+      49,
+      53,
+      62,
+      63,
+      68,
+      71,
+      75,
+      76,
+      81,
+      87,
+      88,
+      103,
+      115,
+      118,
+      140,
+      145,
+      149,
+      1,
+      4,
+      10,
+      12,
+      17,
+      19,
+      22,
+      28,
+      31,
+      32,
+      33,
+      39,
+      40,
+      45,
+      51,
+      52,
+      60,
+      61,
+      65,
+      70,
+      78,
+      79,
+      84,
+      91,
+      93,
+      94,
+      95,
+      98,
+      99,
+      100,
+      102,
+      107,
+      108,
+      109,
+      111,
+      114,
+      116,
+      124,
+      125,
+      127,
+      129,
+      131,
+      132,
+      133,
+      134,
+      135,
+      138,
+      141,
+      144,
+      147,
+      150
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Salmo salar": {
+    "n_extant": 1,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "nominatim+fuzzy"
+  },
+  "Satyrium ilicis": {
+    "n_extant": 5,
+    "n_spatial": 18,
+    "validated_pop_ids": [
+      4,
+      6,
+      11,
+      14,
+      18
+    ],
+    "discarded_pop_ids": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      15,
+      16,
+      17
+    ],
+    "pop_names": {
+      "4": {
+        "name": "Lille",
+        "confidence": "high",
+        "locality": "Lille"
+      },
+      "6": {
+        "name": "Lommel-Peer",
+        "confidence": "probable",
+        "locality": "Gijmel"
+      },
+      "11": {
+        "name": "Wallonia",
+        "confidence": "probable",
+        "locality": "Lutlommel"
+      },
+      "14": {
+        "name": "Aarschot",
+        "confidence": "probable",
+        "locality": "Hotte"
+      },
+      "18": {
+        "name": "Oudsbergen",
+        "confidence": "probable",
+        "locality": "Dorne"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Schoenoplectus pungens": {
+    "n_extant": -999,
+    "n_spatial": 3,
+    "validated_pop_ids": [
+      1,
+      2,
+      3
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Schoenoplectus triqueter": {
+    "n_extant": -999,
+    "n_spatial": 7,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Scorzonera humilis": {
+    "n_extant": 68,
+    "n_spatial": 68,
+    "validated_pop_ids": [
+      39,
+      43,
+      20,
+      50,
+      10,
+      42,
+      7,
+      47,
+      63,
+      49,
+      9,
+      55,
+      58,
+      6,
+      16,
+      34,
+      67,
+      12,
+      14,
+      22,
+      3,
+      37,
+      46,
+      64,
+      31,
+      41,
+      45,
+      51,
+      61,
+      15,
+      25,
+      40,
+      44,
+      48,
+      57,
+      2,
+      8,
+      26,
+      30,
+      33,
+      36,
+      52,
+      59,
+      62,
+      1,
+      4,
+      5,
+      11,
+      13,
+      17,
+      18,
+      19,
+      21,
+      23,
+      24,
+      27,
+      28,
+      29,
+      32,
+      35,
+      38,
+      53,
+      54,
+      56,
+      60,
+      65,
+      66,
+      68
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Somatochlora arctica": {
+    "n_extant": 5,
+    "n_spatial": 7,
+    "validated_pop_ids": [
+      2,
+      4,
+      5,
+      7,
+      6
+    ],
+    "discarded_pop_ids": [
+      1,
+      3
+    ],
+    "pop_names": {
+      "2": {
+        "name": "Hertogenwlad",
+        "confidence": "probable",
+        "locality": "Hoef"
+      },
+      "7": {
+        "name": "Fraiture",
+        "confidence": "probable",
+        "locality": "Longfaye"
+      },
+      "4": {
+        "name": "Saint-Hubert",
+        "confidence": "high",
+        "locality": "Saint-Hubert"
+      },
+      "5": {
+        "name": "Chantemelle",
+        "confidence": "probable",
+        "locality": "Vance"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Stenobothrus stigmaticus": {
+    "n_extant": 6,
+    "n_spatial": 6,
+    "validated_pop_ids": [
+      1,
+      2,
+      4,
+      6,
+      3,
+      5
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "4": {
+        "name": "Châtillon",
+        "confidence": "probable",
+        "locality": "Seilles"
+      },
+      "1": {
+        "name": "Houyet",
+        "confidence": "probable",
+        "locality": "Coxyde"
+      },
+      "2": {
+        "name": "Kelmis",
+        "confidence": "probable",
+        "locality": "Sint-Kruis"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Stratiotes aloides": {
+    "n_extant": 48,
+    "n_spatial": 54,
+    "validated_pop_ids": [
+      25,
+      28,
+      5,
+      40,
+      8,
+      12,
+      30,
+      49,
+      51,
+      42,
+      27,
+      17,
+      36,
+      46,
+      4,
+      18,
+      38,
+      44,
+      2,
+      22,
+      23,
+      14,
+      29,
+      50,
+      6,
+      7,
+      24,
+      31,
+      34,
+      39,
+      10,
+      11,
+      19,
+      21,
+      26,
+      37,
+      43,
+      45,
+      47,
+      48,
+      53,
+      54,
+      1,
+      3,
+      9,
+      13,
+      15,
+      16
+    ],
+    "discarded_pop_ids": [
+      20,
+      32,
+      33,
+      35,
+      41,
+      52
+    ],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Stylurus flavipes": {
+    "n_extant": -999,
+    "n_spatial": 1,
+    "validated_pop_ids": [
+      1
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Sympetrum depressiusculum": {
+    "n_extant": 2,
+    "n_spatial": 2,
+    "validated_pop_ids": [
+      1,
+      2
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {
+      "2": {
+        "name": "Lommel",
+        "confidence": "high",
+        "locality": "Lommel-Werkplaatsen"
+      },
+      "1": {
+        "name": "Zonhoven",
+        "confidence": "high",
+        "locality": "Zonhoven"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Triturus cristatus": {
+    "n_extant": 242,
+    "n_spatial": 237,
+    "validated_pop_ids": [
+      172,
+      154,
+      139,
+      106,
+      101,
+      55,
+      220,
+      196,
+      95,
+      133,
+      46,
+      199,
+      184,
+      170,
+      87,
+      130,
+      235,
+      140,
+      211,
+      24,
+      195,
+      15,
+      123,
+      124,
+      72,
+      135,
+      215,
+      33,
+      103,
+      16,
+      85,
+      45,
+      187,
+      61,
+      107,
+      132,
+      43,
+      94,
+      169,
+      205,
+      115,
+      151,
+      102,
+      157,
+      86,
+      234,
+      129,
+      149,
+      36,
+      147,
+      159,
+      164,
+      165,
+      26,
+      56,
+      83,
+      2,
+      7,
+      71,
+      62,
+      117,
+      173,
+      232,
+      5,
+      70,
+      100,
+      1,
+      6,
+      206,
+      9,
+      67,
+      112,
+      148,
+      179,
+      53,
+      176,
+      209,
+      11,
+      18,
+      77,
+      210,
+      35,
+      50,
+      51,
+      127,
+      189,
+      201,
+      136,
+      137,
+      8,
+      44,
+      229,
+      17,
+      84,
+      144,
+      181,
+      200,
+      230,
+      13,
+      30,
+      66,
+      82,
+      134,
+      152,
+      153,
+      180,
+      192,
+      223,
+      233,
+      12,
+      25,
+      42,
+      104,
+      114,
+      122,
+      128,
+      158,
+      166,
+      186,
+      28,
+      52,
+      81,
+      92,
+      118,
+      182,
+      218,
+      237,
+      14,
+      20,
+      22,
+      32,
+      34,
+      41,
+      49,
+      68,
+      69,
+      80,
+      89,
+      90,
+      96,
+      97,
+      98,
+      108,
+      110,
+      131,
+      143,
+      161,
+      168,
+      183,
+      197,
+      198,
+      221,
+      222,
+      226,
+      228,
+      3,
+      4,
+      10,
+      19,
+      21,
+      23,
+      27,
+      29,
+      31,
+      37,
+      38,
+      39,
+      40,
+      47,
+      48,
+      54,
+      57,
+      58,
+      59,
+      60,
+      63,
+      64,
+      65,
+      73,
+      74,
+      75,
+      76,
+      78,
+      79,
+      88,
+      91,
+      93,
+      99,
+      105,
+      109,
+      111,
+      113,
+      116,
+      119,
+      120,
+      121,
+      125,
+      126,
+      138,
+      141,
+      142,
+      145,
+      146,
+      150,
+      155,
+      156,
+      160,
+      162,
+      163,
+      167,
+      171,
+      174,
+      175,
+      177,
+      178,
+      185,
+      188,
+      190,
+      191,
+      193,
+      194,
+      202,
+      203,
+      204,
+      207,
+      208,
+      212,
+      213,
+      214,
+      216,
+      217,
+      219,
+      224,
+      225,
+      227,
+      231,
+      236
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Unio crassus": {
+    "n_extant": 5,
+    "n_spatial": 65,
+    "validated_pop_ids": [
+      1,
+      40,
+      42,
+      64,
+      10
+    ],
+    "discarded_pop_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      41,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      65
+    ],
+    "pop_names": {
+      "1": {
+        "name": "Basin Meuse",
+        "confidence": "high",
+        "locality": "Baisieux"
+      },
+      "42": {
+        "name": "Sub-basin Ourthe",
+        "confidence": "probable",
+        "locality": "Menugoutte"
+      },
+      "64": {
+        "name": "Sub-basin Moselle",
+        "confidence": "probable",
+        "locality": "Moelingen"
+      },
+      "40": {
+        "name": "Sub-basin Semoi-Chier",
+        "confidence": "probable",
+        "locality": "Sainte-Cécile"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Vertigo angustior": {
+    "n_extant": 18,
+    "n_spatial": 20,
+    "validated_pop_ids": [
+      3,
+      11,
+      2,
+      17,
+      5,
+      18,
+      13,
+      20,
+      8,
+      9,
+      15,
+      16,
+      4,
+      6,
+      1,
+      10,
+      19,
+      7
+    ],
+    "discarded_pop_ids": [
+      12,
+      14
+    ],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Vertigo moulinsiana": {
+    "n_extant": 26,
+    "n_spatial": 27,
+    "validated_pop_ids": [
+      11,
+      10,
+      5,
+      22,
+      23,
+      18,
+      17,
+      7,
+      15,
+      2,
+      3,
+      4,
+      9,
+      12,
+      26,
+      13,
+      6,
+      8,
+      1,
+      20,
+      21,
+      24,
+      25,
+      14,
+      16,
+      19
+    ],
+    "discarded_pop_ids": [
+      27
+    ],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Vespertilio murinus": {
+    "n_extant": -999,
+    "n_spatial": 8,
+    "validated_pop_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  },
+  "Vipera berus": {
+    "n_extant": 16,
+    "n_spatial": 40,
+    "validated_pop_ids": [
+      4,
+      5,
+      7,
+      10,
+      11,
+      12,
+      14,
+      16,
+      18,
+      21,
+      22,
+      24,
+      33,
+      23,
+      37,
+      38
+    ],
+    "discarded_pop_ids": [
+      1,
+      2,
+      3,
+      6,
+      8,
+      9,
+      13,
+      15,
+      17,
+      19,
+      20,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      34,
+      35,
+      36,
+      39,
+      40
+    ],
+    "pop_names": {
+      "7": {
+        "name": "Groot Schietveld",
+        "confidence": "probable",
+        "locality": "Brecht"
+      },
+      "4": {
+        "name": "Kalmthoutse heide",
+        "confidence": "high",
+        "locality": "Kalmthout"
+      },
+      "16": {
+        "name": "Matagne-la-Grande",
+        "confidence": "probable",
+        "locality": "Wechelderzande"
+      },
+      "10": {
+        "name": "Vierves-sur-Viroin",
+        "confidence": "high",
+        "locality": "Vierves-sur-Viroin"
+      },
+      "14": {
+        "name": "Romedenne",
+        "confidence": "high",
+        "locality": "Romedenne"
+      },
+      "22": {
+        "name": "Belvaux-Resteigne",
+        "confidence": "high",
+        "locality": "Resteigne"
+      },
+      "11": {
+        "name": "Hautes Fagnes",
+        "confidence": "probable",
+        "locality": "Matagne-la-Grande"
+      },
+      "33": {
+        "name": "Wiesme",
+        "confidence": "probable",
+        "locality": "Eupen"
+      },
+      "12": {
+        "name": "Petit-Doische",
+        "confidence": "high",
+        "locality": "Doische"
+      },
+      "24": {
+        "name": "Visbeekvallei",
+        "confidence": "probable",
+        "locality": "Maisoncelle"
+      },
+      "21": {
+        "name": "Thanville",
+        "confidence": "high",
+        "locality": "Thanville"
+      },
+      "5": {
+        "name": "Parc Naturel des Sources",
+        "confidence": "probable",
+        "locality": "Cul-des-Sarts"
+      },
+      "18": {
+        "name": "Les Villetes",
+        "confidence": "probable",
+        "locality": "Taille Claude"
+      }
+    },
+    "match_method": "nominatim+fuzzy"
+  },
+  "Wahlenbergia hederacea": {
+    "n_extant": 54,
+    "n_spatial": 54,
+    "validated_pop_ids": [
+      15,
+      18,
+      8,
+      25,
+      3,
+      41,
+      38,
+      9,
+      34,
+      45,
+      49,
+      19,
+      31,
+      16,
+      11,
+      14,
+      51,
+      10,
+      36,
+      4,
+      13,
+      22,
+      29,
+      33,
+      53,
+      5,
+      28,
+      44,
+      2,
+      17,
+      26,
+      27,
+      32,
+      35,
+      46,
+      50,
+      52,
+      1,
+      6,
+      7,
+      12,
+      20,
+      21,
+      23,
+      24,
+      30,
+      37,
+      39,
+      40,
+      42,
+      43,
+      47,
+      48,
+      54
+    ],
+    "discarded_pop_ids": [],
+    "pop_names": {},
+    "match_method": "occurrence_rank"
+  }
+}

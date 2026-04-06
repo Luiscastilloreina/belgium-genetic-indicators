@@ -1,0 +1,1165 @@
+{
+  "Lacerta agilis": {
+    "n_extant": 9,
+    "n_extinct": -999,
+    "pop_names": [
+      "Clairefontaine",
+      "West Arlon",
+      "Athus",
+      "Buzenol",
+      "Reserve Naturelle de Crassier",
+      "Robelmont",
+      "Torgny",
+      "Valansart",
+      "Fontenoille"
+    ],
+    "n_named": 9
+  },
+  "Vipera berus": {
+    "n_extant": 16,
+    "n_extinct": -999,
+    "pop_names": [
+      "Groot Schietveld",
+      "Visbeekvallei",
+      "Kalmthoutse heide",
+      "Hautes Fagnes",
+      "Parc Naturel des Sources",
+      "Les Villetes",
+      "Belvaux-Resteigne",
+      "Thanville",
+      "Wiesme",
+      "Petit-Doische",
+      "Romedenne",
+      "Matagne-la-Grande",
+      "Vierves-sur-Viroin"
+    ],
+    "n_named": 13
+  },
+  "Podarcis muralis": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Coronella austriaca": {
+    "n_extant": 79,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Natrix helvetica": {
+    "n_extant": 30,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Aeshna isoceles": {
+    "n_extant": 1,
+    "n_extinct": 0,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Calopteryx virgo": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Coenagrion hastulatum": {
+    "n_extant": 3,
+    "n_extinct": 8,
+    "pop_names": [
+      "Limburg",
+      "Hautes fagnes",
+      "Fraiture"
+    ],
+    "n_named": 3
+  },
+  "Coenagrion lunulatum": {
+    "n_extant": 3,
+    "n_extinct": 9,
+    "pop_names": [
+      "Schietveld",
+      "Turnhout",
+      "Oudsbergen"
+    ],
+    "n_named": 3
+  },
+  "Coenagrion pulchellum": {
+    "n_extant": 4,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Leucorrhinia caudalis": {
+    "n_extant": 8,
+    "n_extinct": 4,
+    "pop_names": [
+      "Lommel",
+      "Zonhoven",
+      "National Park Hoge Kempen",
+      "Zoniënwoud",
+      "Marais d' Harchies",
+      "Malmedy",
+      "Chimay",
+      "Parc naturel de Gaume"
+    ],
+    "n_named": 8
+  },
+  "Gomphus vulgatissimus": {
+    "n_extant": 2,
+    "n_extinct": 10,
+    "pop_names": [
+      "Antwerp",
+      "Wallonia"
+    ],
+    "n_named": 2
+  },
+  "Sympetrum depressiusculum": {
+    "n_extant": 2,
+    "n_extinct": 8,
+    "pop_names": [
+      "Lommel",
+      "Zonhoven"
+    ],
+    "n_named": 2
+  },
+  "Apatura iris": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Cyaniris semiargus": {
+    "n_extant": 2,
+    "n_extinct": -999,
+    "pop_names": [
+      "Wallonia",
+      "East Flanders"
+    ],
+    "n_named": 2
+  },
+  "Erynnis tages": {
+    "n_extant": 8,
+    "n_extinct": -999,
+    "pop_names": [
+      "Flanders",
+      "Amay-Ardenne",
+      "Sprimont",
+      "Aiseau-Presies",
+      "Evrehailles",
+      "Marche-en-Famenne",
+      "Parc Naturel Viroin-Hermeton",
+      "Parc Naturel de Gaume"
+    ],
+    "n_named": 8
+  },
+  "Euphydryas aurinia": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Euplagia quadripunctaria": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Hesperia comma": {
+    "n_extant": 6,
+    "n_extinct": -999,
+    "pop_names": [
+      "Ravels",
+      "Limburg",
+      "Camp Elsenborn Lager",
+      "Réserve Naturelle de Sclaigneaux",
+      "Camp Roi Albert",
+      "Camp de Lagland"
+    ],
+    "n_named": 6
+  },
+  "Lasiommata megera": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Melitaea cinxia": {
+    "n_extant": 4,
+    "n_extinct": -999,
+    "pop_names": [
+      "Antwerp",
+      "Aarschot",
+      "Kempen",
+      "Parc Naturel de Gaume"
+    ],
+    "n_named": 4
+  },
+  "Pyronia tithonus": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Satyrium ilicis": {
+    "n_extant": 5,
+    "n_extinct": -999,
+    "pop_names": [
+      "Lille",
+      "Lommel-Peer",
+      "Aarschot",
+      "Oudsbergen",
+      "Wallonia"
+    ],
+    "n_named": 5
+  },
+  "Pyrgus malvae": {
+    "n_extant": 6,
+    "n_extinct": -999,
+    "pop_names": [
+      "Houthulst",
+      "Ursel",
+      "Maria-ter-Heide",
+      "Marais d'Harchies",
+      "Boussoit",
+      "Central-South Wallonia"
+    ],
+    "n_named": 6
+  },
+  "Stenobothrus stigmaticus": {
+    "n_extant": 6,
+    "n_extinct": 4,
+    "pop_names": [
+      "Veurne",
+      "Brugge",
+      "Kelmis",
+      "Andenne",
+      "Houyet",
+      "Châtillon"
+    ],
+    "n_named": 6
+  },
+  "Eresus sandaliatus": {
+    "n_extant": 4,
+    "n_extinct": -999,
+    "pop_names": [
+      "Natuurreservaat Heuvelse Heide",
+      "Natuurreservaat Bleekerheide",
+      "Lommerlse Sahara",
+      "Lommel Kristalpark"
+    ],
+    "n_named": 4
+  },
+  "Elater ferrugineus": {
+    "n_extant": 2,
+    "n_extinct": -999,
+    "pop_names": [
+      "West Flanders",
+      "East Flanders - Limburg"
+    ],
+    "n_named": 2
+  },
+  "Vertigo angustior": {
+    "n_extant": 18,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Vertigo moulinsiana": {
+    "n_extant": 26,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Unio crassus": {
+    "n_extant": 5,
+    "n_extinct": 6,
+    "pop_names": [
+      "Basin Meuse",
+      "Sub-basin Ourthe",
+      "Sub-basin Ourthe",
+      "Sub-basin Semoi-Chier",
+      "Sub-basin Moselle"
+    ],
+    "n_named": 5
+  },
+  "Lucanus cervus": {
+    "n_extant": 30,
+    "n_extinct": -999,
+    "pop_names": [
+      "Oostende",
+      "Zeebrugge",
+      "Stabroek",
+      "Kalmthout",
+      "Izegem",
+      "Gent",
+      "Sint-Niklaas",
+      "Edegem",
+      "Berlaar",
+      "Sint-Jozef-Olen",
+      "Laakdal",
+      "Galgenberg",
+      "Ronse"
+    ],
+    "n_named": 13
+  },
+  "Dolomedes fimbriatus": {
+    "n_extant": 72,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Somatochlora arctica": {
+    "n_extant": 5,
+    "n_extinct": -999,
+    "pop_names": [
+      "Limburg",
+      "Hertogenwlad",
+      "Fraiture",
+      "Saint-Hubert",
+      "Chantemelle"
+    ],
+    "n_named": 5
+  },
+  "Osmoderma eremita": {
+    "n_extant": -999,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Phengaris alcon": {
+    "n_extant": 4,
+    "n_extinct": -999,
+    "pop_names": [
+      "Groot Schietveld",
+      "Hageven",
+      "Zwart Water",
+      "Valley of Zwarte Beek"
+    ],
+    "n_named": 4
+  },
+  "Ephippiger ephippiger": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Hoge Kempen"
+    ],
+    "n_named": 1
+  },
+  "Hipparchia semele": {
+    "n_extant": 2,
+    "n_extinct": -999,
+    "pop_names": [
+      "Kust",
+      "Kempen"
+    ],
+    "n_named": 2
+  },
+  "Proserpinus proserpina": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Cucujus cinnaberinus": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Leucorrhinia pectoralis": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Barbastella barbastellus": {
+    "n_extant": 2,
+    "n_extinct": -999,
+    "pop_names": [
+      "Antwerp",
+      "Parc national de la Vallée de la Semois"
+    ],
+    "n_named": 2
+  },
+  "Myotis bechsteinii": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Myotis brandtii": {
+    "n_extant": -999,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Myotis dasycneme": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Myotis daubentonii": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Myotis emarginatus": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium",
+      "Geraardsbergen",
+      "Tournai",
+      "Mons",
+      "Montigny-le-Tilleul",
+      "Parc Naturel Viroin Hermeton",
+      "South Belgium",
+      "Central-East Belgium"
+    ],
+    "n_named": 8
+  },
+  "Myotis myotis": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium",
+      "Averbode",
+      "Chaumont-Gistoux",
+      "Mons",
+      "South Belgium"
+    ],
+    "n_named": 5
+  },
+  "Myotis mystacinus": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Myotis nattereri": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Nyctalus leisleri": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Nyctalus noctula": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Pipistrellus nathusii": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Pipistrellus pipistrellus": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Pipistrellus pygmaeus": {
+    "n_extant": -999,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Plecotus auritus": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Plecotus austriacus": {
+    "n_extant": 6,
+    "n_extinct": -999,
+    "pop_names": [
+      "Snellegem",
+      "Moerbeke",
+      "East Flanders",
+      "Amay",
+      "Mons",
+      "Namur",
+      "Parc naturel de Gaume"
+    ],
+    "n_named": 7
+  },
+  "Rhinolophus ferrumequinum": {
+    "n_extant": 4,
+    "n_extinct": 2,
+    "pop_names": [
+      "Tournaui",
+      "Mons",
+      "Condroz Region",
+      "Central Ardennes"
+    ],
+    "n_named": 4
+  },
+  "Eptesicus serotinus": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Castor fiber": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Cricetus cricetus": {
+    "n_extant": 1,
+    "n_extinct": 2,
+    "pop_names": [
+      "Tongeren",
+      "Leefdaal",
+      "Racour",
+      "Bollenberg",
+      "Koninksem",
+      "Othée",
+      "Genoelsenderen"
+    ],
+    "n_named": 7
+  },
+  "Crocidura leucodon": {
+    "n_extant": -999,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Lynx lynx": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Meles meles": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Vespertilio murinus": {
+    "n_extant": -999,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Lutra lutra": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Muscardinus avellanarius": {
+    "n_extant": 2,
+    "n_extinct": 4,
+    "pop_names": [
+      "Voeren",
+      "Wallonia",
+      "South Wallonia"
+    ],
+    "n_named": 3
+  },
+  "Lampetra fluviatilis": {
+    "n_extant": 4,
+    "n_extinct": -999,
+    "pop_names": [
+      "Sub-basin Bruges Polders",
+      "Sub-basin Lower Scheldt",
+      "Sub-basin Nete",
+      "Sub-basin Dyle-Zenne"
+    ],
+    "n_named": 4
+  },
+  "Cobitis taenia": {
+    "n_extant": 7,
+    "n_extinct": 10,
+    "pop_names": [
+      "Sub-basin Yser",
+      "Sub-basin Leie",
+      "Sub-basin Ghent canals",
+      "Sub-basin Lower Scheldt",
+      "Sub-basin Nete",
+      "Sub-basin Meuse",
+      "Sub-basin Demer"
+    ],
+    "n_named": 7
+  },
+  "Misgurnus fossilis": {
+    "n_extant": 7,
+    "n_extinct": 4,
+    "pop_names": [
+      "Berlare",
+      "Goorken Arendonk",
+      "Wik Bokrijk",
+      "Herkenrode Abbey",
+      "Kinrooi",
+      "Demer Kuringen/Hasselt",
+      "Schulensbroek Herk-De-Stad"
+    ],
+    "n_named": 7
+  },
+  "Petromyzon marinus": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Lampetra planeri": {
+    "n_extant": 10,
+    "n_extinct": -999,
+    "pop_names": [
+      "Amblève",
+      "Lesse",
+      "Semois",
+      "Ourthe",
+      "Meuse amont et Oise",
+      "Dyle-Zenne",
+      "Nete",
+      "Demer",
+      "Moselle",
+      "Meuse"
+    ],
+    "n_named": 10
+  },
+  "Rhodeus sericeus": {
+    "n_extant": 37,
+    "n_extinct": 9,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Cottus rhenanus": {
+    "n_extant": 10,
+    "n_extinct": -999,
+    "pop_names": [
+      "Meuse Aval",
+      "Ambleve",
+      "Ourthe",
+      "Lesse",
+      "Meuse amont et oise",
+      "Semois-Chiers",
+      "Lower Scheldt",
+      "Upper Scheldt",
+      "Meuse",
+      "Dyle-Zenne"
+    ],
+    "n_named": 10
+  },
+  "Alosa fallax": {
+    "n_extant": 1,
+    "n_extinct": 1,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Anguilla anguilla": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Salmo salar": {
+    "n_extant": 1,
+    "n_extinct": 1,
+    "pop_names": [
+      "Belgium"
+    ],
+    "n_named": 1
+  },
+  "Bufo calamita": {
+    "n_extant": 13,
+    "n_extinct": -999,
+    "pop_names": [
+      "Koksijde",
+      "Hazopweg haven",
+      "Kalmthout",
+      "Boom",
+      "Oud Turnhout",
+      "Natuurreservaat De Maat",
+      "Houthalen-Helchteren",
+      "Oudsbergen",
+      "Winterslag",
+      "Dilsen",
+      "Mechelse Heide",
+      "Couvin",
+      "Châtillon"
+    ],
+    "n_named": 13
+  },
+  "Pelobates fuscus": {
+    "n_extant": 4,
+    "n_extinct": 4,
+    "pop_names": [
+      "Wortel-Kolonie and Ginhoven",
+      "Resterheide",
+      "Rode Vijvers",
+      "Vlaams Natuurreservaat Welleke",
+      "Naturreservaat De Maten"
+    ],
+    "n_named": 5
+  },
+  "Hyla arborea": {
+    "n_extant": 8,
+    "n_extinct": 23,
+    "pop_names": [
+      "Oostkust",
+      "Merkske",
+      "Vijvergebied Midden-Limburg",
+      "Dauteweyers",
+      "Maaswinkel",
+      "NO-Limburg",
+      "De Maten",
+      "Camp Roi Albert"
+    ],
+    "n_named": 8
+  },
+  "Bombina variegata": {
+    "n_extant": 12,
+    "n_extinct": 58,
+    "pop_names": [
+      "Sur-le-mont",
+      "Chaudfontaine",
+      "Bois de Jalhay",
+      "Esneux",
+      "Comblain - la - tour",
+      "Krinkelt",
+      "Ligneuville",
+      "Camp Roi Albert",
+      "Chabrehez",
+      "Heer",
+      "Gerpinnes"
+    ],
+    "n_named": 11
+  },
+  "Pelophylax lessonae": {
+    "n_extant": 91,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Triturus cristatus": {
+    "n_extant": 242,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Salamandra salamandra": {
+    "n_extant": 311,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Rana arvalis": {
+    "n_extant": 42,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Alytes obstetricans": {
+    "n_extant": 186,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Apium repens": {
+    "n_extant": 4,
+    "n_extinct": -999,
+    "pop_names": [
+      "Vlaams Natuurreservaat Houtsaegerduinen",
+      "Kalkense meersen",
+      "Mechelen",
+      "Natuurreservaat Schulensbroek"
+    ],
+    "n_named": 4
+  },
+  "Carex diandra": {
+    "n_extant": 11,
+    "n_extinct": -999,
+    "pop_names": [
+      "Lipseinde",
+      "Natuurreservaat Het Goorken",
+      "Averbode",
+      "Vorsdonkbos Turfputten",
+      "Berg",
+      "Orveytbos",
+      "Bremt",
+      "Kerkom",
+      "Natuurreservaat De Maten",
+      "National Park Hoge Kempen",
+      "Camps de lagland"
+    ],
+    "n_named": 11
+  },
+  "Carex trinervis": {
+    "n_extant": 3,
+    "n_extinct": 3,
+    "pop_names": [
+      "Koksijde",
+      "De Hann",
+      "Knokke-Heist"
+    ],
+    "n_named": 3
+  },
+  "Deschampsia setacea": {
+    "n_extant": 1,
+    "n_extinct": -999,
+    "pop_names": [
+      "Natuurreservaat Turnhouts Vennengebied"
+    ],
+    "n_named": 1
+  },
+  "Eriophorum gracile": {
+    "n_extant": 2,
+    "n_extinct": 4,
+    "pop_names": [
+      "Buitengoor",
+      "Camp de Lagland"
+    ],
+    "n_named": 2
+  },
+  "Gentianella uliginosa": {
+    "n_extant": 3,
+    "n_extinct": -999,
+    "pop_names": [
+      "Westhoekreservaat (De Panne)",
+      "Oostvoorduinen (Oostduinkerke)",
+      "Zwinbosjes (Knokke)"
+    ],
+    "n_named": 3
+  },
+  "Herminium monorchis": {
+    "n_extant": 1,
+    "n_extinct": 2,
+    "pop_names": [
+      "Koksijde",
+      "Koksijde",
+      "Ter Yde"
+    ],
+    "n_named": 3
+  },
+  "Juncus capitatus": {
+    "n_extant": 1,
+    "n_extinct": 2,
+    "pop_names": [
+      "Dassenaarde"
+    ],
+    "n_named": 1
+  },
+  "Liparis loeselii": {
+    "n_extant": 2,
+    "n_extinct": 5,
+    "pop_names": [
+      "Haazop - Waaslandhaven",
+      "Meergoor, Mol"
+    ],
+    "n_named": 2
+  },
+  "Potamogeton acutifolius": {
+    "n_extant": 13,
+    "n_extinct": -999,
+    "pop_names": [
+      "Natuurreservaat Het Zwin",
+      "Munkeboseen",
+      "De Blankaart",
+      "Wintam",
+      "Tielen",
+      "De Zegge",
+      "Oosterlo",
+      "Vorsdonkbos Turfputten",
+      "Olmen",
+      "Vijvers van Terlamen",
+      "Natuurreservaat Rode Vijvers-Wijvenheide",
+      "Herkenrodebossen",
+      "Negenoord-Oost"
+    ],
+    "n_named": 13
+  },
+  "Potamogeton coloratus": {
+    "n_extant": 9,
+    "n_extinct": -999,
+    "pop_names": [
+      "Natuurreservaat De Westhoek",
+      "Hannecartbos",
+      "De Zandpanne",
+      "De Fonteintjes",
+      "Lille",
+      "Berg",
+      "Het Walenbos",
+      "Lubbeek",
+      "Réserve naturelle de l'Etang de Virelles"
+    ],
+    "n_named": 9
+  },
+  "Potamogeton compressus": {
+    "n_extant": 2,
+    "n_extinct": -999,
+    "pop_names": [
+      "Wintam",
+      "Natuurreservaat Koningssteen-Kollegreend"
+    ],
+    "n_named": 2
+  },
+  "Ranunculus ololeucos": {
+    "n_extant": 22,
+    "n_extinct": -999,
+    "pop_names": [
+      "Westende",
+      "Provinciedomein Bulskampveid",
+      "Nieuwmoer",
+      "Gooreind",
+      "Ravels",
+      "Zoersel",
+      "3de Bataljon Parachutisten Tienen",
+      "East Dessel",
+      "Hamont-Achel",
+      "Lozerheide",
+      "Bel",
+      "Hoeverheide",
+      "Vlaams Natuurreservaat Tenhaagdoornheide"
+    ],
+    "n_named": 13
+  },
+  "Dactylorhiza sphagnicola": {
+    "n_extant": 25,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Orchis morio": {
+    "n_extant": 5,
+    "n_extinct": -999,
+    "pop_names": [
+      "Boechout",
+      "Aarschot",
+      "North Ardennes",
+      "Bouillon",
+      "Virton"
+    ],
+    "n_named": 5
+  },
+  "Orobanche rapum-genistae": {
+    "n_extant": 15,
+    "n_extinct": -999,
+    "pop_names": [
+      "Nieuwpoort",
+      "Ieper",
+      "Brugge - Zelzate",
+      "Zandhoven - Grobbendonk",
+      "Aarschot-Scherpenhuevel-Zichem",
+      "North Jodoigne",
+      "Winterslag",
+      "Kelmis",
+      "Liege - Namur Provinces",
+      "Naturpark Hohes Venn-Eifel",
+      "Andenne",
+      "Evrehailles",
+      "Courcelles"
+    ],
+    "n_named": 13
+  },
+  "Platanthera bifolia": {
+    "n_extant": 18,
+    "n_extinct": -999,
+    "pop_names": [
+      "Knokke-Heist",
+      "Brugge",
+      "Grootmeers en Kleinmeers",
+      "Buggenhout",
+      "Bos van Aa",
+      "Aarschot",
+      "Ravels",
+      "Zilvermeer provinciaal recreatiedomein",
+      "Maastricht",
+      "Amay",
+      "Andenne",
+      "Ferrieres - Parc naturel des Sources",
+      "Krewinkel"
+    ],
+    "n_named": 13
+  },
+  "Mentha pulegium": {
+    "n_extant": 30,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Orchis purpurea": {
+    "n_extant": 21,
+    "n_extinct": -999,
+    "pop_names": [
+      "Massemen",
+      "Forêt indivise de Stambruges",
+      "Bois de Anare",
+      "Ciply",
+      "Mechelen",
+      "Louvain - la Neuve",
+      "Mazy",
+      "Marche-les-Dames",
+      "Huccorgne",
+      "Saint-Georges-sur-Meuse",
+      "Esneux",
+      "Gelinden",
+      "Eijsden and Sint-Pieters Voeren"
+    ],
+    "n_named": 13
+  },
+  "Scorzonera humilis": {
+    "n_extant": 68,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Wahlenbergia hederacea": {
+    "n_extant": 54,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Stratiotes aloides": {
+    "n_extant": 48,
+    "n_extinct": -999,
+    "pop_names": [],
+    "n_named": 0
+  },
+  "Luronium natans": {
+    "n_extant": 17,
+    "n_extinct": 1,
+    "pop_names": [
+      "Kapellen",
+      "Rijkevrosel",
+      "Turnhout - Arendonk",
+      "Sint-Jozef-Olen",
+      "Mol",
+      "Winkelomheide",
+      "Herselt-Aarschot",
+      "Peer",
+      "Lummen",
+      "Zonhoven",
+      "Nationaal Park Hoge Kempen",
+      "Bois d' Arlogne",
+      "Camp Roi Albert"
+    ],
+    "n_named": 13
+  },
+  "Baldellia ranunculoides": {
+    "n_extant": 20,
+    "n_extinct": -999,
+    "pop_names": [
+      "Woumen",
+      "Zedelgem",
+      "Beernem",
+      "Ravels",
+      "Landschap De Liereman",
+      "Lille",
+      "Boechout",
+      "Bosreservaat De Goorboseen",
+      "Meergoor",
+      "Langdonken",
+      "Averbode",
+      "Vorsdonkbos Turfputten",
+      "Het Walenbos"
+    ],
+    "n_named": 13
+  },
+  "Hamatocaulis vernicosus": {
+    "n_extant": 4,
+    "n_extinct": 5,
+    "pop_names": [
+      "Vrieselholf",
+      "Visbeekvallei",
+      "Vorsdonkbos Turfputten",
+      "Villiers-Tortru"
+    ],
+    "n_named": 4
+  },
+  "Diphasiastrum tristachyum": {
+    "n_extant": 4,
+    "n_extinct": -999,
+    "pop_names": [
+      "Aarschot",
+      "Nationaal Park Hoge Kempen",
+      "Sourbrodt",
+      "Camp de Lagland"
+    ],
+    "n_named": 4
+  },
+  "Pilularia globulifera": {
+    "n_extant": 6,
+    "n_extinct": -999,
+    "pop_names": [
+      "Bos van Houthulst",
+      "Oostkamp",
+      "Koewacht",
+      "East Antwerp Region",
+      "Limburg region",
+      "Chimay"
+    ],
+    "n_named": 6
+  }
+}

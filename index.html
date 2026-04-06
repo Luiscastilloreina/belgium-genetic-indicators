@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
   <link rel="stylesheet" href="style.css"/>
 </head>
-
 <body>
 
   <!-- ── Sidebar ─────────────────────────────────────────────────────────── -->
@@ -15,6 +14,13 @@
     <div id="sidebar-header">
       <h1>Genetic Indicators</h1>
       <p class="subtitle">Belgium · Source B species (INBO)</p>
+
+      <!-- Raw / Expert toggle -->
+      <div id="view-toggle" class="hidden">
+        <button id="btn-raw" class="toggle-btn active">Raw data</button>
+        <button id="btn-expert" class="toggle-btn">Expert validated</button>
+      </div>
+
       <input id="search" type="text" placeholder="Search species…" autocomplete="off"/>
     </div>
     <div id="species-list"></div>
@@ -33,18 +39,24 @@
         </div>
         <button id="modal-close" aria-label="Close">×</button>
       </div>
+
+      <div id="modal-note" class="hidden"></div>
+
       <div id="modal-body">
         <table id="modal-table">
           <thead>
             <tr>
-              <th>Population</th>
-              <th>Area (ha)</th>
+              <th>Population name</th>
+              <th>ID</th>
+              <th>Area (km²)</th>
               <th>Occurrences</th>
+              <th>Match</th>
             </tr>
           </thead>
           <tbody id="modal-tbody"></tbody>
         </table>
       </div>
+
       <div id="modal-footer">
         <span id="modal-count"></span>
         <button id="btn-download">Download CSV</button>

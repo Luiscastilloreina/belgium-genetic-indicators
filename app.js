@@ -1,4 +1,4 @@
-// ── Predefined species groups (order matches R script) ────────────────────────
+// ── Predefined species groups (order matches export_geojson.R) ────────────────
 const SPECIES_GROUPS = [
   { label: 'Reptiles', species: [
     'Lacerta agilis', 'Vipera berus', 'Podarcis muralis',
@@ -57,12 +57,15 @@ const SPECIES_GROUPS = [
 
 // ── State ─────────────────────────────────────────────────────────────────────
 const state = {
-  metadata: {},        // speciesName → { ne500, pm, iucn, n_pops_spatial, ... }
-  layers: {},          // speciesName → Leaflet layer
-  geojsonCache: {},    // speciesName → parsed GeoJSON
-  colors: {},          // speciesName → hex color
-  colorIdx: 0,
-  openGroups: new Set(),
+  metadata:    {},   // name → species_index entry
+  expert:      {},   // name → expert_populations entry
+  matches:     {},   // name → population_matches entry
+  layers:      {},   // name → Leaflet layer
+  geojsonCache:{},   // name → parsed GeoJSON
+  colors:      {},
+  colorIdx:    0,
+  openGroups:  new Set(),
+  viewMode:    'raw',   // 'raw' | 'expert'
   modalSpecies: null,
   modalGeojson: null,
 };
@@ -75,25 +78,21 @@ const PALETTE = [
 ];
 const nextColor = () => PALETTE[state.colorIdx++ % PALETTE.length];
 
-// ── Basemap definitions (via leaflet-providers — URLs mantenidas y verificadas)
+// ── Map ───────────────────────────────────────────────────────────────────────
 const BASEMAPS = [
-  { key: 'osm',       label: '🗺 Street (OSM)',          provider: 'OpenStreetMap.Mapnik' },
-  { key: 'topo',      label: '🏔 Topographic (OSM)',      provider: 'OpenTopoMap' },
-  { key: 'satellite', label: '🛰 Satellite (Esri)',        provider: 'Esri.WorldImagery' },
-  { key: 'natgeo',    label: '🌿 NatGeo (Esri)',           provider: 'Esri.NatGeoWorldMap' },
-  { key: 'esritopo',  label: '⛰ World Topo (Esri)',       provider: 'Esri.WorldTopoMap' },
-  { key: 'light',     label: '☀ Light (CartoDB)',          provider: 'CartoDB.Positron' },
-  { key: 'dark',      label: '🌑 Dark (CartoDB)',           provider: 'CartoDB.DarkMatter' },
+  { key: 'osm',       label: '🗺 Street (OSM)',         provider: 'OpenStreetMap.Mapnik' },
+  { key: 'topo',      label: '🏔 Topographic (OSM)',     provider: 'OpenTopoMap' },
+  { key: 'satellite', label: '🛰 Satellite (Esri)',       provider: 'Esri.WorldImagery' },
+  { key: 'natgeo',    label: '🌿 NatGeo (Esri)',          provider: 'Esri.NatGeoWorldMap' },
+  { key: 'esritopo',  label: '⛰ World Topo (Esri)',      provider: 'Esri.WorldTopoMap' },
+  { key: 'light',     label: '☀ Light (CartoDB)',         provider: 'CartoDB.Positron' },
+  { key: 'dark',      label: '🌑 Dark (CartoDB)',          provider: 'CartoDB.DarkMatter' },
 ];
 
-// ── Map ───────────────────────────────────────────────────────────────────────
 const map = L.map('map').setView([50.5, 4.5], 8);
-
 let activeBasemap = L.tileLayer.provider('OpenStreetMap.Mapnik').addTo(map);
-let activeKey     = 'osm';
+let activeKey = 'osm';
 
-// Basemap switcher control — event listeners attached INSIDE onAdd to avoid
-// L.DomEvent.disableClickPropagation blocking document-level handlers
 const basemapControl = L.control({ position: 'topright' });
 basemapControl.onAdd = function () {
   const div = L.DomUtil.create('div', 'basemap-control');
@@ -102,48 +101,31 @@ basemapControl.onAdd = function () {
     <div class="basemap-menu hidden">
       ${BASEMAPS.map(bm =>
         `<div class="basemap-option${bm.key === 'osm' ? ' selected' : ''}"
-              data-key="${bm.key}"
-              data-provider="${bm.provider}">${bm.label}</div>`
+              data-key="${bm.key}" data-provider="${bm.provider}">${bm.label}</div>`
       ).join('')}
     </div>`;
-
   L.DomEvent.disableClickPropagation(div);
-
   const btn  = div.querySelector('.basemap-btn');
   const menu = div.querySelector('.basemap-menu');
-
-  // Toggle menu
   btn.addEventListener('click', () => menu.classList.toggle('hidden'));
-
-  // Close when clicking outside (mousedown avoids interference with map clicks)
   document.addEventListener('mousedown', e => {
     if (!div.contains(e.target)) menu.classList.add('hidden');
   });
-
-  // Switch basemap
   div.querySelectorAll('.basemap-option').forEach(opt => {
     opt.addEventListener('click', () => {
-      const key      = opt.dataset.key;
-      const provider = opt.dataset.provider;
+      const key = opt.dataset.key;
       if (key === activeKey) { menu.classList.add('hidden'); return; }
-
       map.removeLayer(activeBasemap);
-      activeBasemap = L.tileLayer.provider(provider).addTo(map);
+      activeBasemap = L.tileLayer.provider(opt.dataset.provider).addTo(map);
       activeBasemap.bringToBack();
       activeKey = key;
-
-      // Keep species layers on top
       Object.values(state.layers).forEach(l => l.bringToFront());
-
-      // Update selected state
       div.querySelectorAll('.basemap-option').forEach(o =>
-        o.classList.toggle('selected', o.dataset.key === key)
-      );
+        o.classList.toggle('selected', o.dataset.key === key));
       btn.textContent = BASEMAPS.find(b => b.key === key).label;
       menu.classList.add('hidden');
     });
   });
-
   return div;
 };
 basemapControl.addTo(map);
@@ -151,23 +133,59 @@ basemapControl.addTo(map);
 const legendControl = L.control({ position: 'bottomright' });
 legendControl.onAdd = () => {
   const div = L.DomUtil.create('div', 'map-legend');
-  div.innerHTML = '<div class="legend-title">Active species</div><div id="legend-items"><span class="legend-empty">None active</span></div>';
+  div.innerHTML = '<div class="legend-title">Active species</div>'
+    + '<div id="legend-items"><span class="legend-empty">None active</span></div>';
   return div;
 };
 legendControl.addTo(map);
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 async function init() {
-  // Load metadata — optional; app works without it (layers still load from GeoJSON)
-  try {
-    const resp = await fetch('data/species_index.json');
-    if (resp.ok) {
-      const index = await resp.json();
-      index.forEach(s => { state.metadata[s.name] = s; });
-    }
-  } catch (_) { /* metadata unavailable — continue */ }
+  const [idxResp, expResp, matchResp] = await Promise.allSettled([
+    fetch('data/species_index.json'),
+    fetch('data/expert_populations.json'),
+    fetch('data/population_matches.json'),
+  ]);
 
+  if (idxResp.status === 'fulfilled' && idxResp.value.ok) {
+    const idx = await idxResp.value.json();
+    idx.forEach(s => { state.metadata[s.name] = s; });
+  }
+  if (expResp.status === 'fulfilled' && expResp.value.ok) {
+    state.expert = await expResp.value.json();
+  }
+  if (matchResp.status === 'fulfilled' && matchResp.value.ok) {
+    state.matches = await matchResp.value.json();
+    // Show expert toggle only when matches file is loaded
+    document.getElementById('view-toggle').classList.remove('hidden');
+  }
+
+  setupViewToggle();
   renderSidebar();
+}
+
+// ── View mode toggle ──────────────────────────────────────────────────────────
+function setupViewToggle() {
+  document.getElementById('btn-raw').addEventListener('click',    () => setViewMode('raw'));
+  document.getElementById('btn-expert').addEventListener('click', () => setViewMode('expert'));
+}
+
+function setViewMode(mode) {
+  if (mode === state.viewMode) return;
+  state.viewMode = mode;
+  document.getElementById('btn-raw').classList.toggle('active', mode === 'raw');
+  document.getElementById('btn-expert').classList.toggle('active', mode === 'expert');
+
+  // Re-render all active layers with new filter
+  const activeNames = Object.keys(state.layers);
+  activeNames.forEach(name => {
+    map.removeLayer(state.layers[name]);
+    delete state.layers[name];
+  });
+  Promise.all(activeNames.map(name => addLayer(name))).then(() => {
+    renderSidebar();
+    updateLegend();
+  });
 }
 
 // ── Sidebar ───────────────────────────────────────────────────────────────────
@@ -180,19 +198,15 @@ function renderSidebar() {
     const matches = query
       ? group.species.filter(s => s.toLowerCase().includes(query))
       : group.species;
-
     if (matches.length === 0) return;
+    if (query) state.openGroups.add(group.label);
 
-    // Auto-expand groups with search matches
-    if (query && matches.length > 0) state.openGroups.add(group.label);
-
-    const isOpen    = state.openGroups.has(group.label);
+    const isOpen      = state.openGroups.has(group.label);
     const activeCount = matches.filter(s => state.layers[s]).length;
 
     const section = document.createElement('div');
     section.className = 'accordion-group';
 
-    // Header
     const header = document.createElement('button');
     header.className = `accordion-header${isOpen ? ' open' : ''}`;
     header.innerHTML = `
@@ -204,7 +218,6 @@ function renderSidebar() {
       </span>`;
     header.addEventListener('click', () => toggleGroup(group.label));
 
-    // Body
     const body = document.createElement('div');
     body.className = `accordion-body${isOpen ? ' open' : ''}`;
 
@@ -212,17 +225,26 @@ function renderSidebar() {
       const isActive = !!state.layers[name];
       const color    = state.colors[name] || null;
       const meta     = state.metadata[name];
-      const ne500    = meta?.ne500 != null ? meta.ne500.toFixed(2) : '—';
+      const exp      = state.expert[name];
+      const matchData= state.matches[name];
+      const ne500    = meta?.ne500 != null ? Number(meta.ne500).toFixed(2) : '—';
+
+      // Discrepancy badge: spatial pops vs expert validated
+      let badge = '';
+      if (matchData && isActive) {
+        const nSpatial   = matchData.n_spatial;
+        const nValidated = matchData.validated_pop_ids?.length ?? nSpatial;
+        if (state.viewMode === 'expert' && nSpatial !== nValidated) {
+          badge = `<span class="disc-badge" title="${nValidated} validated / ${nSpatial} total">⚑ ${nValidated}/${nSpatial}</span>`;
+        }
+      }
+
+      const displayName = query
+        ? name.replace(new RegExp(`(${escapeRegex(query)})`, 'i'), '<mark>$1</mark>')
+        : name;
 
       const item = document.createElement('div');
       item.className = `species-item${isActive ? ' active' : ''}`;
-
-      // Highlight search match
-      const displayName = query
-        ? name.replace(new RegExp(`(${escapeRegex(query)})`, 'i'),
-            '<mark>$1</mark>')
-        : name;
-
       item.innerHTML = `
         <span class="checkbox-wrap">
           <span class="custom-checkbox${isActive ? ' checked' : ''}"
@@ -231,19 +253,18 @@ function renderSidebar() {
           </span>
         </span>
         <span class="species-name"><em>${displayName}</em></span>
+        ${badge}
         <span class="species-ne">${ne500}</span>
         ${isActive ? `<button class="btn-data" title="View population data">⊞</button>` : ''}`;
 
       item.addEventListener('click', () => toggleSpecies(name));
-
       if (isActive) {
         item.querySelector('.btn-data').addEventListener('click', e => {
           e.stopPropagation();
-          const geojson = state.geojsonCache[name];
-          if (geojson) openModal(name, geojson, null);
+          const gj = state.geojsonCache[name];
+          if (gj) openModal(name, gj, null);
         });
       }
-
       body.appendChild(item);
     });
 
@@ -254,38 +275,29 @@ function renderSidebar() {
 }
 
 function toggleGroup(label) {
-  if (state.openGroups.has(label)) {
-    state.openGroups.delete(label);
-  } else {
-    state.openGroups.add(label);
-  }
+  state.openGroups.has(label) ? state.openGroups.delete(label) : state.openGroups.add(label);
   renderSidebar();
 }
 
-function escapeRegex(s) {
-  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
+function escapeRegex(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
 
-// ── Layer toggle ──────────────────────────────────────────────────────────────
+// ── Layer management ──────────────────────────────────────────────────────────
 async function toggleSpecies(name) {
-  if (state.layers[name]) {
-    removeLayer(name);
-  } else {
-    await addLayer(name);
-  }
+  if (state.layers[name]) { removeLayer(name); }
+  else { await addLayer(name); }
   renderSidebar();
   updateLegend();
 }
 
 async function addLayer(name) {
-  const color = nextColor();
+  const color = state.colors[name] || nextColor();
   state.colors[name] = color;
 
   if (!state.geojsonCache[name]) {
     const fname = name.replace(/ /g, '_');
     try {
       const resp = await fetch(`geojson/${fname}.geojson`);
-      if (!resp.ok) throw new Error(`GeoJSON not found: ${fname}.geojson`);
+      if (!resp.ok) throw new Error(`Not found: ${fname}.geojson`);
       state.geojsonCache[name] = await resp.json();
     } catch (e) {
       console.error(e);
@@ -294,21 +306,53 @@ async function addLayer(name) {
     }
   }
 
-  const geojson = state.geojsonCache[name];
+  const geojson    = state.geojsonCache[name];
+  const matchData  = state.matches[name];
+  const validIds   = matchData?.validated_pop_ids
+    ? new Set(matchData.validated_pop_ids)
+    : null;
+  const popNames   = matchData?.pop_names ?? {};
 
-  const layer = L.geoJSON(geojson, {
-    style: { color, fillColor: color, fillOpacity: 0.40, weight: 1.5 },
+  // In expert mode, filter to validated populations only
+  const features = (state.viewMode === 'expert' && validIds)
+    ? geojson.features.filter(f => validIds.has(f.properties.population_id))
+    : geojson.features;
+
+  const filteredGj = { ...geojson, features };
+
+  const layer = L.geoJSON(filteredGj, {
+    style: f => {
+      const pid  = f.properties.population_id;
+      const isValidated = !validIds || validIds.has(pid);
+      return {
+        color:       color,
+        fillColor:   color,
+        fillOpacity: isValidated ? 0.40 : 0.10,
+        weight:      isValidated ? 1.5  : 0.8,
+        dashArray:   isValidated ? null : '4 3',
+      };
+    },
     onEachFeature: (feature, lyr) => {
-      const p = feature.properties;
+      const p    = feature.properties;
+      const pid  = p.population_id;
+      const pName= popNames[String(pid)];
+      const conf = pName?.confidence;
+      const confBadge = conf
+        ? `<span class="conf-${conf}">${conf === 'high' ? '✓' : '~'} ${conf}</span>`
+        : '';
+
+      const nameLabel = pName?.name
+        ? `<b>${pName.name}</b> ${confBadge}<br>`
+        : `Population ${pid}<br>`;
+
       lyr.bindTooltip(
-        `<b><em>${p.species}</em></b><br>
-         Population ${p.population_id} &nbsp;·&nbsp; ${p.area_ha} ha<br>
-         Occurrences: ${p.n_occurrences}`,
+        `<em>${p.species}</em><br>${nameLabel}`
+        + `Area: <b>${p.area_km2} km²</b> · ${p.n_occurrences} occ.`,
         { sticky: true, className: 'pop-tooltip' }
       );
-      lyr.on('mouseover', () => lyr.setStyle({ fillOpacity: 0.70, weight: 2.5 }));
+      lyr.on('mouseover', () => lyr.setStyle({ fillOpacity: 0.75, weight: 2.5 }));
       lyr.on('mouseout',  () => layer.resetStyle(lyr));
-      lyr.on('click',     () => openModal(name, geojson, p.population_id));
+      lyr.on('click',     () => openModal(name, geojson, pid));
     }
   }).addTo(map);
 
@@ -331,31 +375,69 @@ function updateLegend() {
         `<div class="legend-row">
            <span class="legend-dot" style="background:${color}"></span>
            <em>${name}</em>
-         </div>`
-      ).join('');
+         </div>`).join('');
 }
 
 // ── Modal ─────────────────────────────────────────────────────────────────────
 function openModal(name, geojson, clickedId) {
-  const meta     = state.metadata[name] || {};
-  const features = geojson.features;
+  const meta      = state.metadata[name] || {};
+  const matchData = state.matches[name]  || {};
+  const expData   = state.expert[name]   || {};
+  const popNames  = matchData.pop_names  || {};
+  const validIds  = new Set(matchData.validated_pop_ids || []);
+  const features  = geojson.features;
 
   state.modalSpecies = { name, ...meta };
   state.modalGeojson = geojson;
 
   document.getElementById('modal-title').textContent = name;
+
+  const nSpatial   = features.length;
+  const nValidated = validIds.size || nSpatial;
+  const ne500      = meta.ne500 != null ? Number(meta.ne500).toFixed(3) : 'N/A';
+  const pm         = meta.pm   != null ? Number(meta.pm).toFixed(3)    : 'N/A';
+
   document.getElementById('modal-tags').innerHTML = [
     meta.taxonomic_group ?? '—',
     `IUCN: ${meta.iucn ?? 'N/A'}`,
-    `Ne500: ${meta.ne500 != null ? Number(meta.ne500).toFixed(3) : 'N/A'}`,
-    `PM: ${meta.pm != null ? Number(meta.pm).toFixed(3) : 'N/A'}`,
-    `${features.length} populations`
-  ].map(t => `<span class="tag">${t}</span>`).join('');
+    `Ne500: ${ne500}`,
+    `PM: ${pm}`,
+    `Spatial: ${nSpatial} pops`,
+    nValidated !== nSpatial ? `Expert: ${nValidated} validated` : '',
+  ].filter(Boolean).map(t => `<span class="tag">${t}</span>`).join('');
 
+  // Show expert discrepancy note if applicable
+  const noteEl = document.getElementById('modal-note');
+  if (matchData.match_method && nSpatial !== nValidated) {
+    noteEl.innerHTML = `
+      <span class="note-icon">ℹ</span>
+      Expert validation: <b>${nValidated}</b> of ${nSpatial} polygons accepted.
+      ${nSpatial - nValidated} discarded. Method: <em>${matchData.match_method}</em>.`;
+    noteEl.classList.remove('hidden');
+  } else {
+    noteEl.classList.add('hidden');
+  }
+
+  // Table rows
   document.getElementById('modal-tbody').innerHTML = features.map(f => {
-    const p  = f.properties;
-    const hl = p.population_id === clickedId ? ' class="highlighted-row"' : '';
-    return `<tr${hl}><td>${p.population_id}</td><td>${p.area_ha}</td><td>${p.n_occurrences}</td></tr>`;
+    const p      = f.properties;
+    const pid    = p.population_id;
+    const pInfo  = popNames[String(pid)];
+    const isVal  = !validIds.size || validIds.has(pid);
+    const hl     = pid === clickedId ? ' class="highlighted-row"' : '';
+    const confCl = pInfo?.confidence ? ` class="conf-${pInfo.confidence}"` : '';
+    const rowCl  = !isVal ? ' class="discarded-row"' : (pid === clickedId ? ' class="highlighted-row"' : '');
+
+    return `<tr${rowCl}>
+      <td>${pInfo?.name ? `<b>${pInfo.name}</b>` : `Pop. ${pid}`}</td>
+      <td>${pid}</td>
+      <td>${p.area_km2}</td>
+      <td>${p.n_occurrences}</td>
+      <td>${pInfo?.confidence
+        ? `<span${confCl}>${pInfo.confidence === 'high' ? '✓ high' : '~ probable'}</span>`
+        : (isVal ? '<span class="conf-auto">auto</span>' : '<span class="conf-disc">discarded</span>')}
+      </td>
+    </tr>`;
   }).join('');
 
   document.getElementById('modal-count').textContent =
@@ -374,14 +456,26 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal()
 // ── CSV download ──────────────────────────────────────────────────────────────
 document.getElementById('btn-download').addEventListener('click', () => {
   if (!state.modalSpecies || !state.modalGeojson) return;
-  const s = state.modalSpecies;
-  const header = ['species','population_id','area_ha','n_occurrences',
+  const s         = state.modalSpecies;
+  const matchData = state.matches[s.name] || {};
+  const popNames  = matchData.pop_names   || {};
+  const validIds  = new Set(matchData.validated_pop_ids || []);
+
+  const header = ['species','population_id','expert_name','match_confidence',
+                  'area_km2','n_occurrences','expert_validated',
                   'ne500','pm','iucn','taxonomic_group'];
   const rows = state.modalGeojson.features.map(f => {
-    const p = f.properties;
-    return [s.name, p.population_id, p.area_ha, p.n_occurrences,
-            s.ne500 ?? '', s.pm ?? '', s.iucn ?? '', s.taxonomic_group ?? ''].join(',');
+    const p     = f.properties;
+    const pid   = p.population_id;
+    const pInfo = popNames[String(pid)] || {};
+    const isVal = !validIds.size || validIds.has(pid);
+    return [
+      s.name, pid, pInfo.name ?? '', pInfo.confidence ?? '',
+      p.area_km2, p.n_occurrences, isVal,
+      s.ne500 ?? '', s.pm ?? '', s.iucn ?? '', s.taxonomic_group ?? ''
+    ].join(',');
   });
+
   const blob = new Blob([[header.join(','), ...rows].join('\n')],
     { type: 'text/csv;charset=utf-8;' });
   const a = Object.assign(document.createElement('a'), {
